@@ -25,24 +25,80 @@ a {
 	text-decoration: none;
 	color: black;
 }
-
+ 
 p {
 	font-size: 1.8rem;
-	font-weight: 300px;
+	font-weight: 301px;
 }
 /* End Global */
 
 
 /* Start Landing Page */
-.landing-page {
-	padding-left: 50px;
+nav {
+	display: grid;
+	grid-template-columns: 10% 1fr 1fr 10%;
+	min-height: 10vh;
+	align-items: center;
+} 
+
+#logo {
+	grid-column: 2/3;
+	font-size: 24px;
 }
+
+.navigation {
+	justify-content: ri ght;
+	grid-column: 3/4;
+	align-items: center;
+}
+
+
+section {
+	display: flex; 
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero {
+   z-index: 1;
+   height: 60%;
+   width: 100%; 
+}
+
+
+.hero img {
+	width: 100%; 
+	height: 100%;
+	object-fit: cover;
+}
+
+.headline {
+	position: absolute;
+	top: 70%;
+	left: 10%;
+	font-size: 100px;
+	transform: translate(-20%, -70%);
+	color: black;
+}
+
+.slider {
+	z-index: -1;
+	position: absolute; 
+	top: 0;
+	left: 0;
+	width: 1900px;
+	height: 1000px;
+	background: white;
+}
+
+
 
  .header {
 	 width: 100%;
 	 height: 75px;
 	 display: block;
-	 background-color: white; 
+	 background-color: black; 
  }
 
  .inner-header {
@@ -52,6 +108,7 @@ p {
 	 height: 100%;
 	 display: block;
 	 margin: 0 auto;
+	 color: transparent;
  }
 
  .navigation {
@@ -66,6 +123,7 @@ p {
 	 display: table;
 	 float: left;
 	 padding: 0px 20px;
+	 color: transparent;
 
  }
 
@@ -87,20 +145,11 @@ p {
  }
 
  /* New Animation stuff */
- .hero {
-	 z-index: 1;
- }
- .slider {
-	z-index: -1;
-	 position: absolute; 
-	 top: 0;
-	 left: 0;
-	 width: 1900px;
-	 height: 1000px;
-	 background: linear-gradient(to left, )
-	 
- }
  
+ 
+
+
+
 
 /* End Landing Page */
 
