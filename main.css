@@ -94,6 +94,52 @@ section {
 	 background-color: transparent;
  }
 
+
+/* Start Arrow Hovering Effect */
+/* Arrow Transition */
+.arrow {
+	z-index: 5;
+	position: absolute;
+  	left: 48.6%;
+    top: 88%;
+    width: 4vmin;
+    height: 4vmin;
+    background: transparent;
+    border-top: 1vmin solid black;
+    border-right: 1vmin solid black;
+    box-shadow: 0 0 0 black;
+    -webkit-transition: all 200ms ease;
+    transition: all 400ms ease;
+  }
+  
+  .arrow.right {
+    z-index: 5;
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(0,0 -50%, 0) rotate(135deg);
+            transform: translate3d(0, -50%, 0) rotate(135deg);
+  }
+
+  .arrow:hover {
+    z-index: 5;
+    border-color: rgb(250, 117, 117);
+    box-shadow: 0.5vmin -0.5vmin 0 black;
+  }
+  .arrow:before {
+    z-index: 5;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-40%, -60%) rotate(45deg);
+            transform: translate(-40%, -60%) rotate(45deg);
+    width: 200%;
+    height: 200%;
+  }
+
+/* End Arrow Hovering Effect */
+
+
 /*
 .hero img {
 	width: 100%; 
@@ -185,6 +231,7 @@ section {
 
 
 /* Start About Me Page */
+/*
 .about-me {
 	padding-top: 30px;
 	padding-left: 50px;
@@ -198,6 +245,7 @@ section {
 .about-me-text {
 	font-size: 39pt;
 }
+*/
 
 
 
@@ -224,10 +272,10 @@ section {
 	 align-items: center;
  }
  */
-
+/*
  li {
 	  margin: 0 0.7rem;
- }
+ } */
 
  /*
  .nav-link {
@@ -237,15 +285,16 @@ section {
  }
  */
 
- 
+ /*
 .nav-link:hover,
 .nav-link:focus {
 	background: linear-gradient(to top, rgb(245, 62, 62), rgb(246, 230, 83));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
+} */
 
 /* min 35 */
+/*
 .menu-toggler {
 	position: absolute;
 	top: 13rem;
@@ -259,7 +308,7 @@ section {
 	z-index: 200;
 	transition: transform 650ms ease-out;
 	background: transparent;
-}
+} */ /*
 .menu-toggler.open {
 	transform: rotate(-45deg);
 }

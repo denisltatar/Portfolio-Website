@@ -1,0 +1,55 @@
+html {
+    background: black;
+  }
+  
+  body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10vmin;
+    height: 5vmin;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  /* Arrow Transition */
+  .arrow {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid white;
+    border-right: 1vmin solid white;
+    box-shadow: 0 0 0 lightgray;
+    -webkit-transition: all 200ms ease;
+    transition: all 400ms ease;
+  }
+  
+  .arrow.right {
+    z-index: 5;
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(0,0 -50%, 0) rotate(135deg);
+            transform: translate3d(0, -50%, 0) rotate(135deg);
+  }
+
+  .arrow:hover {
+    z-index: 5;
+    border-color: rgb(247, 88, 88);
+    box-shadow: 0.5vmin -0.5vmin 0 white;
+  }
+  .arrow:before {
+    z-index: 5;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-40%, -60%) rotate(45deg);
+            transform: translate(-40%, -60%) rotate(45deg);
+    width: 200%;
+    height: 200%;
+  }
+  
+  
