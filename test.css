@@ -3,6 +3,11 @@
 			color: black;
 		}
 
+    .landing-page-section {
+      height: 100vh;
+      /* background: red; */
+    }
+ 
 		.navbar {
 			font-size: 20px;
 			font-family: DIN Condensed;		
@@ -52,7 +57,6 @@
       padding-top: 3px;
       padding-left: 60px;
       z-index: 0;
-      
     }
 
     .socials a li {
@@ -67,13 +71,18 @@
        padding-top: 21%;
      }
 
-    .about-me {
-      position: fixed;
+    .about-me-section {
+        height: 100vh;
+        /* background: rgb(0, 68, 255); */
+     }
+
+    .about-me img { 
       width: 98%;
-      margin: 5px auto;
+      margin: 3px auto;
       display: block;
-      padding-top: 3px;
-      padding-left: 60px;
+      padding-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
       z-index: 0;
      }
 
@@ -119,3 +128,34 @@
     height: 200%;
   }
 /* End Arrow Hovering Effect */
+
+
+.projects-section {
+  height: 100vh;
+  /* background: rgb(0, 255, 55); */
+}
+
+.projects-section img {
+      width: 98%;
+      margin: 3px auto;
+      display: block;
+      padding-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+      z-index: 0;
+}
+
+.contact-me-section {
+  height: 100vh;
+  /* background: rgb(229, 255, 0); */
+}
+
+.contact-me-section img {
+      width: 98%;
+      margin: 3px auto;
+      display: block;
+      padding-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+      z-index: 0;
+}
