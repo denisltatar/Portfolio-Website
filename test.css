@@ -10,40 +10,71 @@
 			border-radius: 0;
 			background-color:  transparent;
 			padding: 1% 0;
-			border: 0;
-		}
-
-		.navbar-brand {
-			float: left;
-			min-height: 70px;
-			padding: 0 5px 3px;
-		}
-
-		.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, 
-		.navbar-inverse .navbar-nav .active a:hover {
+      border: 0;
+    }
+ /*
+		.navbar-inverse .navbar-nav .home a {
 			color: rgb(255, 72, 72);
 			background-color:  transparent;
-		}
+    }
+    */
+    
+    .navbar-inverse .navbar-nav .home a:focus, .navbar-inverse .navbar-nav .about a:focus, .navbar-inverse .navbar-nav .projects a:focus,
+    .navbar-inverse .navbar-nav .resume a:focus, .navbar-inverse .navbar-nav .contact a:focus {
+      color: rgb(255, 72, 72);
+      background-color: transparent;
+    }
 
-		.navbar-inverse .navbar-nav li a {
-			color: black;
+    .navbar-inverse .navbar-nav .home a:hover {
+      color: rgb(252, 141, 141);
+      background-color: transparent;
+    }
+
+    .navbar-inverse .navbar-nav .about a:hover, .navbar-inverse .navbar-nav .projects a:hover,
+    .navbar-inverse .navbar-nav .resume a:hover, .navbar-inverse .navbar-nav .contact a:hover {
+      color: rgb(252, 141, 141);
+      background-color: transparent;
+    }
+
+    .nav navbar-nav navbar-right {
+      padding-right: 10px;
+    }
+
+    .nav navbar-nav navbar-right li:hover {
+      color: grey;
     }
     
     .landing-pic img {
-      width: 95%;
-      margin: 2px auto;
+      position: absolute;
+      width: 98%;
+      margin: 5px auto;
       display: block;
-      padding-top: 60px;
-      padding-left: 15px;
-      z-index: -1;
+      padding-top: 3px;
+      padding-left: 60px;
+      z-index: 0;
+      
     }
 
     .socials a li {
-      z-index: 2;
       display: block;
-      vertical-align: middle;
-      padding-right: 10px;
-      padding: 10px 0px;
+      vertical-align: right;
+      padding: 10px 14px;
+      z-index: 10;
+      text-align: right;
+     }
+
+     .socials {
+       padding-top: 21%;
+     }
+
+    .about-me {
+      position: fixed;
+      width: 98%;
+      margin: 5px auto;
+      display: block;
+      padding-top: 3px;
+      padding-left: 60px;
+      z-index: 0;
      }
 
 
@@ -51,7 +82,7 @@
 .arrow {
 	z-index: 5;
 	position: absolute;
-  	left: 48.6%;
+  	left: 48.9%;
     top: 88%;
     width: 4vmin;
     height: 4vmin;
