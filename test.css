@@ -1,33 +1,69 @@
-html {
-    background: black;
-  }
-  
-  body {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10vmin;
-    height: 5vmin;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
-  
-  /* Arrow Transition */
-  .arrow {
-    z-index: 5;
-    position: absolute;
-    top: 50%;
-    width: 3vmin;
-    height: 3vmin;
+
+		html {
+			color: black;
+		}
+
+		.navbar {
+			font-size: 20px;
+			font-family: DIN Condensed;		
+			margin-bottom: 0;
+			border-radius: 0;
+			background-color:  transparent;
+			padding: 1% 0;
+			border: 0;
+		}
+
+		.navbar-brand {
+			float: left;
+			min-height: 70px;
+			padding: 0 5px 3px;
+		}
+
+		.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, 
+		.navbar-inverse .navbar-nav .active a:hover {
+			color: rgb(255, 72, 72);
+			background-color:  transparent;
+		}
+
+		.navbar-inverse .navbar-nav li a {
+			color: black;
+    }
+    
+    .landing-pic img {
+      width: 95%;
+      margin: 2px auto;
+      display: block;
+      padding-top: 60px;
+      padding-left: 15px;
+      z-index: -1;
+    }
+
+    .socials a li {
+      z-index: 2;
+      display: block;
+      vertical-align: middle;
+      padding-right: 10px;
+      padding: 10px 0px;
+     }
+
+
+/* Start Arrow Hovering Effect */
+.arrow {
+	z-index: 5;
+	position: absolute;
+  	left: 48.6%;
+    top: 88%;
+    width: 4vmin;
+    height: 4vmin;
     background: transparent;
-    border-top: 1vmin solid white;
-    border-right: 1vmin solid white;
-    box-shadow: 0 0 0 lightgray;
+    border-top: 1vmin solid black;
+    border-right: 1vmin solid black;
+    box-shadow: 0 0 0 black;
     -webkit-transition: all 200ms ease;
     transition: all 400ms ease;
   }
   
-  .arrow.right {
+  .arrow.right1 {
     z-index: 5;
     position: absolute;
     right: 0;
@@ -37,8 +73,8 @@ html {
 
   .arrow:hover {
     z-index: 5;
-    border-color: rgb(247, 88, 88);
-    box-shadow: 0.5vmin -0.5vmin 0 white;
+    border-color: rgb(250, 117, 117);
+    box-shadow: 0.5vmin -0.5vmin 0 black;
   }
   .arrow:before {
     z-index: 5;
@@ -51,5 +87,4 @@ html {
     width: 200%;
     height: 200%;
   }
-  
-  
+/* End Arrow Hovering Effect */
