@@ -92,7 +92,7 @@
 	z-index: 5;
 	position: absolute;
   	left: 48.9%;
-    top: 88%;
+    top: 90%;
     width: 4vmin;
     height: 4vmin;
     background: transparent;
@@ -145,6 +145,7 @@
       z-index: 0;
 }
 
+/* Contact Me Begins */
 .contact-me-section {
   height: 100vh;
   /* background: rgb(229, 255, 0); */
@@ -159,3 +160,188 @@
       padding-right: 15px;
       z-index: 0;
 }
+
+/*
+.contact-sec h2 {
+  font-size: 28px;
+  font-family: DIN Condensed;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+#contact {
+  width: 100%;
+  background-color: rgba(8,7,7,0.90);
+}
+
+section#contact div.container {
+  padding: 5%;
+}
+
+#contact .btn-primary {
+  background-color:  #BE2525;
+  border: 1px solid #BE2525;
+}
+
+#contact .btn-primary:hover {
+  background-color:  #721616;
+}
+*/
+.container.contact-form {
+  padding: 10px 0;
+}
+
+/* Contact Me Ends */
+
+
+/* Form Begins */
+body {
+  font-family: DIN Condensed;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+#contact-form {
+  padding-top: 4%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#contact-form dear-denis {
+  color: red;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: DIN Condensed;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  /* overflow:hidden; */
+  
+  resize: none;
+  width: 90%;
+  border-color: rgba(0, 0, 0, 0)
+}
+
+textarea:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px dashed rgb(0, 0, 0);
+}
+
+textarea:focus:required:valid {
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+textarea:required:valid {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+input {
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.5);
+}
+
+input:required,
+textarea:required {
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+  border-bottom: 2px dashed rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+input:required:valid {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+input:required:invalid {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.expanding {
+  vertical-align: top;
+}
+
+.send-icn {
+  fill: rgb(0, 0, 0)
+}
+
+.send-icn:hover {
+  fill: rgb(248, 104, 104);
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+
+button:hover small {
+  opacity: 1;
+  color: #FF5555;
+}
+
+small {
+  display: block;
+  opacity: 0;
+}
+
+/* Form End */
