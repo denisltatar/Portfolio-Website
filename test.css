@@ -71,22 +71,6 @@
        padding-top: 21%;
      }
 
-    .about-me-section {
-        height: 100vh;
-        /* background: rgb(0, 68, 255); */
-     }
-
-    .about-me img { 
-      width: 98%;
-      margin: 3px auto;
-      display: block;
-      padding-top: 40px;
-      padding-left: 15px;
-      padding-right: 15px;
-      z-index: 0;
-     }
-
-
 /* Start Arrow Hovering Effect */
 .arrow {
 	z-index: 5;
@@ -129,6 +113,20 @@
   }
 /* End Arrow Hovering Effect */
 
+.about-me-section {
+  height: 100vh;
+  /* background: rgb(0, 68, 255); */
+}
+
+.about-me img { 
+width: 98%;
+margin: 3px auto;
+display: block;
+padding-top: 40px;
+padding-left: 15px;
+padding-right: 15px;
+z-index: 0;
+}
 
 .projects-section {
   height: 100vh;
