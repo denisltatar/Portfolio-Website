@@ -3,15 +3,21 @@
         color: black;
     }
  
-	.navbar {
-		font-size: 20px;
-		font-family: DIN Condensed;		
-		margin-bottom: 0;
-		border-radius: 0;
-		background-color:  transparent;
-		padding: 1% 0;
-        border: 0;
+    .navbar {
+			font-size: 20px;
+			font-family: DIN Condensed;		
+			margin-bottom: 0;
+			border-radius: 0;
+			background-color:  transparent;
+			padding: 1% 0;
+      border: 0;
     }
+ /*
+		.navbar-inverse .navbar-nav .home a {
+			color: rgb(255, 72, 72);
+			background-color:  transparent;
+    }
+    */
     
     .navbar-inverse .navbar-nav .home a:focus, .navbar-inverse .navbar-nav .about a:focus, .navbar-inverse .navbar-nav .projects a:focus,
     .navbar-inverse .navbar-nav .resume a:focus, .navbar-inverse .navbar-nav .contact a:focus {
@@ -40,14 +46,13 @@
 
      .project-1-section {
         height: 100vh;
-        background: red;
       }
 
     .project-1 img { 
-        width: 98%;
+        width: 96%;
         margin: 3px auto;
         display: block;
-        padding-left: 35px;
+        padding-left: 22px;
         padding-right: 15px;
         z-index: 0;
      }
@@ -55,7 +60,6 @@
     .project-2-section {
         height: 100vh;
         /* background: rgb(0, 68, 255); */
-        background-color: aqua;
       }
       
       .project-2 img { 
@@ -71,7 +75,6 @@
 
     .project-3-section {
         height: 100vh;
-        background: rgb(0, 255, 55);
     }
     
     .project-3-section img {
@@ -88,10 +91,24 @@
     .project-4-section {
         height: 100vh;
         /* background: rgb(0, 68, 255); */
-        background-color: aqua;
       }
       
       .project-4 img { 
+      width: 98%;
+      margin: 3px auto;
+      display: block;
+      padding-top: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+      z-index: 0;
+      }
+
+      .project-5-section {
+        height: 100vh;
+        /* background: rgb(0, 68, 255); */
+      }
+      
+      .project-5 img { 
       width: 98%;
       margin: 3px auto;
       display: block;
