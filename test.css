@@ -1,6 +1,7 @@
 
 		html {
-			color: black;
+      color: black;
+      scroll-behavior: smooth;
 		}
 
     .landing-page-section {
