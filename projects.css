@@ -57,6 +57,13 @@
         z-index: 0;
      }
 
+    .project-1 video {
+      position: absolute;
+      right: 220px;
+      top: 530px;
+      border: 6px solid rgb(209, 209, 209);
+    }
+
     .project-2-section {
         height: 100vh;
         /* background: rgb(0, 68, 255); */
@@ -72,6 +79,14 @@
       z-index: 0;
       }
 
+      .project-2 video {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        right: 240px;
+        top: 1415px;
+        border: 6px solid rgb(209, 209, 209);
+      }
 
     .project-3-section {
         height: 100vh;
