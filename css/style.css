@@ -2,11 +2,18 @@
 @import url(./fonts.css);
 
 /* css variables */
-@import  url(./partials/_variables.css);
+@import  url(../partials/_variables.css);
+
+/* Global styling */
+@import url(../partials/_global.css);
 
 /* Start Navigation */
 .header_area .main-menu.navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu {
+    padding-top: 0.5%;
 }
 
 .header_area .main-menu .navbar {
@@ -14,13 +21,96 @@
 }
 
 .header_area .main-menu .nav-bar .nav-item .nav-link {
-    font-family: var(--roboto);
+    font: normal 800 15px/2px var(--roboto);
     text-transform: uppercase;
+    color:var(--title-color);
+    padding: 50%;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+    background: var(--nav-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--nav-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* End Navigation */
+
+
+/* Start Banner */
+.site-main {
+    padding-top: 2%;
+}
+
+.site-main .site-banner {
+    /* NOT WORKING */
+    background: url(../img/home-banner.png) no-repeat 50% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
     font-weight: 500;
-    padding: 1.7rem;
-    color:var(--title-coloer);
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
 }
 
 
+.site-main .site-banner .site-title h1 {
+    font-size: 3rem;
+}
 
-/* End Navigation */
+.site-main .site-banner .site-title h4 {
+    font-size: 1.0rem;
+}
+
+.site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.site-main .site-banner .banner-image img {
+    height: 300px;
+    widows: 300px;
+}
+
+/* End Banner */
+
+
+/* Start About Area */
+.site-main .about-area {
+    /* NOT WORKING */
+    background: url(../img/about-me-banner.png) no-repeat 50% 50%;
+}
+
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 2px;
+    padding: 0 1.2rem;
+}
+
+/* Come back to change the alignment of the "let me intro myself" bit */
+.site-main .about-area .about-title .paragraph > p {
+    padding: 0.4rem 1.2rem;
+}
+
+/* End About Area */
