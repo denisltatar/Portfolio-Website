@@ -12,9 +12,6 @@ html {
 }
 
 /* Start Navigation */
-.header_area .main-menu.navbar .navbar-brand {
-    padding: 0 2rem 0 5rem;
-}
 
 .header_area .main-menu {
     padding-top: 0.5%;
@@ -22,13 +19,13 @@ html {
 
 .header_area .main-menu .navbar {
     padding: 1rem 20rem;
-}
+} 
 
-.header_area .main-menu .nav-bar .nav-item .nav-link {
-    font: normal 800 15px/2px var(--roboto);
+.header_area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
     color:var(--title-color);
-    padding: 50%;
+    padding: 1.7rem;
 }
 
 .header_area .main-menu .navbar-nav .active a {
