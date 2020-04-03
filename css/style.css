@@ -7,6 +7,10 @@
 /* Global styling */
 @import url(../partials/_global.css);
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Start Navigation */
 .header_area .main-menu.navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
@@ -28,14 +32,14 @@
 }
 
 .header_area .main-menu .navbar-nav .active a {
-    background: var(--nav-color);
+    background: var(--primary-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
-    background: var(--nav-color);
+    background: var(--primary-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -113,4 +117,63 @@
     padding: 0.4rem 1.2rem;
 }
 
+/* Socials CSS */
+#socials a li {
+    display: block;
+    vertical-align: right;
+    padding: 10px 0px;
+    z-index: 10;
+    padding-left: 10px;
+    text-align: right;
+}
+
+#socials {
+     padding-top: 16%;
+     z-index: 10;
+     position: absolute;
+}
+
 /* End About Area */
+
+
+/* Start Projects Area */
+.portfolio{
+    margin: 4em 0;
+    position: relative; 
+    font: normal bold 49px/60px var(--roboto);
+}
+.portfolio h1{
+    color: var(--primary-color);
+    margin: 2em; 
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+     
+}
+
+/* End Projects Area */
+
+/* Start Footer Area */
+footer.footer-area {
+    padding: 5rem 0;
+    background: url(../img/footer-background.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color)
+}
+
+footer.footer-area .social a:hover > i {
+    color: var(--primary-color);
+}
+
+
+/* End Footer Area */
