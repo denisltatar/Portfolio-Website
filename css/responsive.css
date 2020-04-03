@@ -1,0 +1,47 @@
+
+
+
+/* If the viewport is <= 340px */
+@media only screen and (max-wodth: 340px){
+    .header_area.main-menu.navbar,
+    .header_area.main-menu.navbar .navbar-brand{
+        padding: 2%;
+        margin: 0;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+}
+
+/* If the viewport is <= 792px */
+@media only screen and (max-wodth: 792px){
+    .site-main .about-area .about-title h2 > span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .about-area .about-title p {
+        padding: 0%;
+    }
+
+}
+
+
+/* If the viewport is <= 1910px */
+@media only screen and (max-wodth: 1910px){
+    .header_area.main-menu.navbar{
+        padding: 1rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .site-main.about-area{
+        padding: 3% 4%;
+    }
+
+    
+}
