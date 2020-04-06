@@ -59,3 +59,14 @@ p.para {
     z-index: 999;
     transition: background 1s ease;
 }
+
+
+/* Removing horrible outline */
+button:focus,
+button:active
+btton:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
