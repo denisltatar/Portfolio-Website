@@ -21,6 +21,10 @@
     <!-- Resposive css file -->
     <link rel="stylesheet" href="./css/responsive.css">
 
+    <!-- Hovering Affects CSS file -->
+    <link href="./Hover-master/css/hover.css" rel="stylesheet" media="all">
+
+
 </head>
 
 <body>
@@ -369,22 +373,115 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col"id="lol">
+                        <div class="col" id="lol">
                             <img src="./img/insta.png" alt="Avatar" class="image" width="50" height="50">
-                            <div class="overlay">
+                            <div class="overlay" id="overlay1">
                                 <div class="text">Hello World</div>
                             </div>
                         </div>
 
                         <div class="col">
-                                <img src="./img/insta.png" alt="Avatar" class="image" width="50" height="50">
-                                <div class="overlay">
-                                    <div class="text">No World</div>
+                            <img src="./img/insta.png" alt="Avatar" class="image" width="50" height="50">
+                            <div class="overlay">
+                                <div class="text">No World</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="new-projects" id="not-sure">
+            <div class="container">
+                <!-- Our First Row -->
+                <div class="row">
+                    <div class="col">
+                        <!-- Project 1 -->
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn">
+                            <img src="./img/porsche-app-cover@2x.png" alt="" width="200" height="400">
+                        </button>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h4 class="text-center">Porsche Car Connect</h4>
+                                <p class="para" id="style-work">Work: Mobile Development</p>
+                                <p class="para">Hours worked on: 30+ hours</p>
+                                <p class="para">Software used: </p>
+                                <p class="para">Languages: </p>
+                                <p class="para">
+                                    I decided to re-create Porsche’s Car
+                                    Connect iOS application. I used Adobe XD
+                                    to design the layout that you see here. I used
+                                    Xcode to create the app and used the
+                                    Firebase API to store user account information.
+                                </p>
+                                <p class="para">
+                                    I felt inspired to re-create this application as the "Car Connect" application
+                                    that was on the market at the time looked horrendous. I thought it could look better
+                                    that it did.
+                                </p>
+                                <p class="para">
+                                    Here's what the application looks like:
+                                </p>
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="./img/porsche-app-cover@2x.png" alt="" width="200" height="400">
+                                    </div>
+                                    <div class="col">
+                                        <img src="./img/porsche-home@3x.png" alt="" width="200" height="400">
+                                    </div>
+                                    <div class="col">
+                                        <img src="./img/porsche-temp@3x.png" alt="" width="200" height="400">
+                                    </div>
+                                    <div class="col">
+                                        <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
+                                    </div>
+                                    <div class="col">
+                                        <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="para">
+                                            Here's a video of what the application looks like on a mobile device! Since
+                                            I don't
+                                            a Prosche, you can see that the analytics on the app are null.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <button>
+                            <img src="./img/privaseeable.png" alt="">
+                        </button>
+
+
+
+                        
                     </div>
                 </div>
 
+                <!-- Our Second Row -->
+                <div class="row">
+                    <div class="col text-center">
+                        <button>YO</button>
+                    </div>
+                    <div class="col text-center">
+                        <button>YO</button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -511,18 +608,21 @@
 
 
 
-    <!-- Jquery js file -->
-    <script src="file:///Users/denisltatar/Desktop/Portfolio%20Website/Portfolio-Website/js/jquery.3.4.1.js"></script>
 
-    <!-- Bootstrap js file -->
-    <script src="file:///Users/denisltatar/Desktop/Portfolio%20Website/Portfolio-Website/js/bootstrap.min.js"></script>
-
-    <!-- Isotop js library -->
-    <script src="./vendor/isotope/isotope.min.js"></script>
-
-    <!-- Custome js file -->
-    <script src="./js/main.js"></script>
 
 </body>
+
+<!-- Moved from the bottom -->
+<!-- Jquery js file -->
+<script src="./js/jquery.3.4.1.js"></script>
+
+<!-- Bootstrap js file -->
+<script src="./js/bootstrap.min.js"></script>
+
+<!-- Isotop js library -->
+<script src="./vendor/isotope/isotope.min.js"></script>
+
+<!-- Custome js file -->
+<script src="./js/main.js"></script>
 
 </html>
