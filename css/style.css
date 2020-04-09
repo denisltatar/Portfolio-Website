@@ -253,27 +253,38 @@ html {
   text-align: center;
 }
 
-#lol {
-  padding: 130px 120px;
-}
     
+
+/* NEW PROJECTS SECTION */ 
+.row {
+  padding: 50px
+}
+
+
+/* Project 2 Modal */
+/* The Modal (background) */
 /* Button */
 #myBtn {
-  background-color: rgb(41, 41, 41);
   border-radius: 12px;
   transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
 }
 
 #myBtn:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  background-color: rgb(175, 175, 175); /* Green */
+  background-color: rgb(255, 59, 59);
   color: white;
 }
 
+#video-para {
+  padding: 40px;
+  padding-top: 85px;
+  font: normal 35px/45px var(--roboto);
+}
 
 
-/* The Modal (background) */
-.modal {
+#myModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -286,43 +297,96 @@ html {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */
+/* Modal Content Box */
 .modal-content {
-  background-color: #ffffff;
+  background-color: #0702ff;
   margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px 55px;
+  padding: 20px;
+  border: 1px solid rgb(12, 8, 255);
   width: 80%; /* Could be more or less, depending on screen size */
-}
-
-.modal-content p{
-  color: black;
-  font: normal 18px/23px var(--roboto);
-}
-
-#style-work {
-  padding-top: 30px;
-}
-
-.modal-content h4{
-  padding-top: 25px;
-  font: normal 35px/23px var(--roboto);
 }
 
 /* The Close Button */
 .close {
-  padding-top: 30px;
-  color: #FFD3D3;
+  color: rgb(96, 19, 104);
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
+
 .close:hover,
 .close:focus {
-  color: rgb(255, 136, 136);
+  color: rgb(116, 2, 131);
   text-decoration: none;
   cursor: pointer;
 }
+
+
+/* #2 */
+/* The Modal (background) */
+/* Button */
+#myBtn2 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtn2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(255, 59, 59);
+  color: white;
+}
+
+
+#myModal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgba(255, 166, 166, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content Box */
+.modal-content2 {
+  background-color: #8d1111;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid rgb(242, 100, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close2 {
+  color: rgb(255, 53, 53);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.close2:hover,
+.close2:focus {
+  color: rgb(197, 32, 175);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
