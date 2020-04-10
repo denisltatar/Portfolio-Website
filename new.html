@@ -48,7 +48,7 @@
                             <a class="nav-link" href="#about-area">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects">PROJECTS</a>
+                            <a class="nav-link" href="#new-projects">PROJECTS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-me">CONTACT</a>
@@ -392,106 +392,51 @@
         </section> -->
 
 
-        <section class="new-projects" id="not-sure">
-            <div class="container">
+        <section class="new-projects" id="new-projects">
+            <div class="container" id="project-container">
                 <div class="project-title pb-5 text-center">
                     <h1 class="text-uppercase title-h1">Coding Projects</h1>
                 </div>
+
                 <!-- Our First Row -->
-                <div class="row">
-                    <!-- 
-                    <div class="col">
-                        <!-- Project 1 -->
-                    <!-- Trigger/Open The Modal
-                        <button id="myBtn">
-                            <img src="./img/porsche-app-cover@2x.png" alt="" width="200" height="400">
-                        </button>
-
-                        <!-- The Modal 
-                        <div id="myModal" class="modal">
-
-                            <!-- Modal content 
-                            <div class="modal-content">
-                                <span class="close">&times;</span>
-                                <h4 class="text-center">Porsche Car Connect</h4>
-                                <p class="para" id="style-work">Work: Mobile Development</p>
-                                <p class="para">Hours worked on: 30+ hours</p>
-                                <p class="para">Software used: </p>
-                                <p class="para">Languages: Swift</p>
-                                <p class="para">
-                                    I decided to re-create Porsche’s Car
-                                    Connect iOS application. I used Adobe XD
-                                    to design the layout that you see here. I used
-                                    Xcode to create the app and used the
-                                    Firebase API to store user account information.
-                                </p>
-                                <p class="para">
-                                    I felt inspired to re-create this application as the "Car Connect" application
-                                    that was on the market at the time looked horrendous. I thought it could look better
-                                    that it did.
-                                </p>
-                                <p class="para">
-                                    Here's what the application looks like:
-                                </p>
-                                <div class="row">
-                                    <div class="col">
-                                        <img src="./img/porsche-app-cover@2x.png" alt="" width="200" height="400">
-                                    </div>
-                                    <div class="col">
-                                        <img src="./img/porsche-home@3x.png" alt="" width="200" height="400">
-                                    </div>
-                                    <div class="col">
-                                        <img src="./img/porsche-temp@3x.png" alt="" width="200" height="400">
-                                    </div>
-                                    <div class="col">
-                                        <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
-                                    </div>
-                                    <div class="col">
-                                        <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <p class="para" id="video-para">
-                                            Here's a video of what the application looks like on a mobile device! Since
-                                            I don't
-                                            a Prosche, you can see that the analytics on the app are null.
-                                        </p>
-                                    </div>
-                                    <div class="col text-center">
-                                        <video src="./img/Porschevideo.mp4" width="200" height="400"></video>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="row" id="row1">
+                    <div class="col" id="row1-col1">
+                        <!-- Trigger/Open The Modal -->
+                        <div class="text-center">
+                            <button id="myBtn">
+                                <img src="./img/porsche-app-cover.png" alt="">
+                            </button>
+                            <p class="para-bold" id="project-title">Porsche Car Connect</p>
                         </div>
-                    </div>
-                    <div class="col text-center">
-                        <button>
-                            <img src="./img/privaseeable.png" alt="">
-                        </button>
 
-
-
-                        <!-- The Modal 
+                        <!-- The Modal -->
                         <div id="myModal" class="modal">
 
-                            <!-- Modal content
+                            <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
-                                <h4 class="text-center">Porsche Car Connect</h4>
-                                <p class="para" id="style-work">Work: Mobile Development</p>
-                                <p class="para">Hours worked on: 30+ hours</p>
-                                <p class="para">Software used: </p>
-                                <p class="para">Languages: Swift</p>
+                                <h4 class="text-center" id="porsche-title">Porsche Car Connect</h4>
+                                <p class="para-bold" id="style-work">Type of Work: Mobile Development</p>
+                                <p class="para-bold">Hours worked on: 30+ hours</p>
+                                <p class="para-bold">Software used:
+                                    <img src=" ./img/photoshop.dms" alt="" width="34" height="33" id="photoshop-icon">
+                                    <img src="./img/illustrator.png" alt="" width="31" height="30"
+                                        id="illustrator-icon">
+                                    <img src="./img/adobeXD.png" alt="" width="31" height="30" id="xd-icon">
+                                    <img src="./img/xcode.png" alt="" width="33" height="32" id="xcode-icon">
+                                </p>
+                                <p class="para-bold">Languages: Swift</p>
+                                <p class="para-bold" id="github-link">Github Repository:
+                                    <a href="https://github.com/denisltatar/My-Second-App">
+                                        <i class="fab fa-github" id="github-repo"></i>
+                                    </a>
+                                </p>
                                 <p class="para">
                                     I decided to re-create Porsche’s Car
-                                    Connect iOS application. I used Adobe XD
+                                    Connect iOS application. I used Adobe XD, Photoshop, and Illustrator
                                     to design the layout that you see here. I used
                                     Xcode to create the app and used the
                                     Firebase API to store user account information.
-                                </p>
-                                <p class="para">
                                     I felt inspired to re-create this application as the "Car Connect" application
                                     that was on the market at the time looked horrendous. I thought it could look better
                                     that it did.
@@ -516,6 +461,7 @@
                                         <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
                                     </div>
                                 </div>
+
 
                                 <div class="row">
                                     <div class="col text-center">
@@ -530,158 +476,87 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+                    </div>
 
-
-
-
-
-
-
-
-                </div>
-            </div>
-
-            <!-- Our Second Row -->
-            <div class="row">
-                <div class="col text-center">
-                    <!-- Trigger/Open The Modal -->
-                    <button id="myBtn">Open Modal</button>
-
-                    <!-- The Modal -->
-                    <div id="myModal" class="modal">
-
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <p>Some text in the Modal..</p>
+                    <div class="col" id="row1-col2">
+                        <!-- Trigger/Open The Modal -->
+                        <div class="text-center">
+                            <button id="myBtn2">
+                                <img src="./img/privaseeable.png" alt="">
+                            </button>
+                            <p class="para-bold" id="project-title">PrivaSeeable</p>
                         </div>
 
-                    </div>
-            
+                        <!-- The Modal -->
+                        <div id="myModal2" class="modal2">
+
+                            <!-- Modal content -->
+                            <div class="modal-content2">
+                                <span class="close2">&times;</span>
+                                <h4 class="text-center" id="porsche-title">PrivaSeeable</h4>
+                                <p class="para-bold" id="style-work">Type of Work: Web Development</p>
+                                <p class="para-bold">Hours worked on: 12 hours</p>
+                                <p class="para-bold">Software used:
+                                    <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
+                                    <img src="./img/visual-code.png" alt="" width="31" height="30" id="visual-code">
+                                </p>
+                                <p class="para-bold">Languages: HTML, CSS, and JavaScript</p>
+                                <p class="para-bold" id="github-link">Github Repository:
+                                    <a href="https://github.com/denisltatar/PrivaSeeable">
+                                        <i class="fab fa-github" id="github-repo"></i>
+                                    </a>
+                                </p>
+                                <p class="para-bold">Prize: 3rd Place Finalist at CitizenHacks</p>
+                                <p class="para">
+                                        Privaseeable is a hackathon project that was created in September 2019.
+                                        It's a chrome extension that was built to 
+                                        maintain a user’s privacy in public settings. My team
+                                        and I used Javascript to create this
+                                        chrome extension that takes advantage
+                                        of CSS elements to maintain user 
+                                        privacy by obsuring their screen’s text from
+                                        potential onlookers. We implemented a 
+                                        “blur” feature that allows the user to blur
+                                        onscreen text and seletively unblur text by
+                                        holding shift and clicking on a piece of text.
+                                        We implemented a “scramble” feature as
+                                        well which inserts random words in
+                                        between onscreen text. 
+                                </p>
+                                
+
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <p class="para-bold" id="video-para">
+                                            Here's what the chrome extension looks like. There are four options here to
+                                            choose from.
+                                        </p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/privaseeable.png" alt="">
+                                    </div>
+                                </div>
 
 
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <p class="para-bold" id="video-para">
+                                            Here's a video of what this chrome extension looks like in action. Enjoy!
+                                        </p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <video src="./img/Privaseeablevideo.mp4" width="200" height="400"></video>
+                                    </div>
+                                </div>
+                            </div>
 
-
-
-
-                </div>
-                <div class="col text-center">
-                    <!-- Trigger/Open The Modal -->
-                    <button id="myBtn2">Open Modal</button>
-
-                    <!-- The Modal -->
-                    <div id="myModal2" class="modal2">
-
-                        <!-- Modal content -->
-                        <div class="modal-content2">
-                            <span class="close2" >&times;</span>
-                            <p>D I F F E R E N T  T E X T</p>
                         </div>
-
                     </div>
-                    
-
-
-
-
-
                 </div>
             </div>
             </div>
         </section>
-
-
-
-
-        <!-- New Portfolio Section 
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-
-
-<header>
-    <h1>Projects <br> <span>[ Coding Projects ]</span></h1>
-</header>
-
-<div id="top"></div>
-<section class="gallery">
-	<div class="row">
-		<ul>
-			<a href="#" class="close"></a>
-			<li>
-				<a href="#item02">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png" alt="">
-				</a>
-			</li>
-
-			<li>
-				<a href="#item02">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/3892302/contact.png" alt="">
-				</a>
-			</li>
-
-			<li>
-				<a href="#item02">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/4154721/dive--001.png" alt="">
-				</a>
-			</li>
-			<li>
-				<a class="image" href="#item01">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/4356121/darko--dr.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a class="image" href="#item02">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/3695553/news.png" alt="">
-				</a>
-			</li>
-			<li>
-				<a class="image" href="#item01">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/4360101/liberosis_--_12.png" alt="">
-				</a>
-			</li>
-			<li>
-				<a class="image" href="#item01">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/3148799/technical-book.jpg" alt="">
-				</a>
-			</li>
-			<li>
-				<a class="image" href="#item01">
-					<img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
-				</a>
-			</li>
-		</ul>
-	</div> <!-- / row 
-
-	<!-- Item 01
-	<div id="item01" class="port">
-		<div class="row">
-			<div class="description">
-				<h1>Item 01</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
-			</div>
-				<img src="https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png" alt="">
-			</div>
-		</div> <!-- / row 
-	</div> <!-- / Item 02 
-
-	<!-- Item 02 
-	<div id="item02" class="port">
-	
-		<div class="row">
-			<div class="description">
-				<h1>Item 02</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.</p>
-			</div>
-			<img src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg" alt="">
-		</div> <!-- / row 
-
-	</div> <!-- / Item 02 
-
-</section> <!-- / projects -->
-
-
-
 
         <!-- ============================= End Projects Area ============================= -->
 

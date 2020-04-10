@@ -23,10 +23,8 @@ $(document).ready(function () {
     // Adding a Pop-Up (Project 1)
     // Get the modal
     var modal = document.getElementById("myModal");
-
     // Get the button that opens the modal
     var btn = document.getElementById("myBtn");
-
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
 
@@ -54,10 +52,8 @@ $(document).ready(function () {
     // Adding a Pop-Up (Project 2)
     // Get the modal
     var modal2 = document.getElementById("myModal2");
-
     // Get the button that opens the modal
     var btn2 = document.getElementById("myBtn2");
-
     // Get the <span> element that closes the modal
     var span2 = document.getElementsByClassName("close2")[0];
 
