@@ -252,9 +252,12 @@ html {
 }
 
 #video-para {
-  padding: 40px;
-  padding-top: 85px;
+  padding: 150px;
   font: normal 35px/45px var(--roboto);
+}
+
+#porsche-video {
+  padding-top: 150px;
 }
 
 
@@ -308,7 +311,7 @@ html {
 }
 
 /* ICONS USED WITHIN MODALS!!!! */
-#photoshop-icon, #illustrator-icon, #xd-icon, #xcode-icon, #visual-code {
+#photoshop-icon, #illustrator-icon, #xd-icon, #xcode-icon, #visual-code, #procreate-icon, #instagram-icon, #youtube-icon {
   padding-left: 5px;
   padding-bottom: 2px;
 }
@@ -355,7 +358,7 @@ a:hover > i {
 }
 
 
-/* #2 */
+/* PrivaSeeable */
 /* The Modal (background) */
 /* Button */
 #myBtn2 {
@@ -385,6 +388,14 @@ a:hover > i {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+#priv-image {
+  padding: 80px;
+}
+
+#priv-video {
+  padding: 10px;
+}
+
 /* Modal Content Box */
 .modal-content2 {
   background-color: #ffffff;
@@ -411,6 +422,380 @@ a:hover > i {
 }
 
 
+/* Mood Playlist */
+/* The Modal (background) */
+/* Button */
+#myBtn3 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtn3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#priv-image {
+  padding: 80px;
+}
+
+#priv-video {
+  padding: 10px;
+}
+
+/* Modal Content Box */
+.modal-content3 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close3 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.close3:hover,
+.close3:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Portfolio Website */
+/* The Modal (background) */
+/* Button */
+#myBtn4 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtn4:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModal4 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#priv-image {
+  padding: 80px;
+}
+
+#priv-video {
+  padding: 10px;
+}
+
+/* Modal Content Box */
+.modal-content4 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close4 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.close4:hover,
+.close4:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* =========== Design Projects =========== */
+/* Dream Big Piece */
+/* The Modal (background) */
+/* Button */
+#myBtnd1 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtnd1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModald1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content Box */
+.modal-contentd1 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closed1 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.closed1:hover,
+.closed1:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Dior X Kaws Piece */
+/* The Modal (background) */
+/* Button */
+#myBtnd2 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtnd2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModald2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content Box */
+.modal-contentd2 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closed2 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.closed2:hover,
+.closed2:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Gucci Piece */
+/* The Modal (background) */
+/* Button */
+#myBtnd3 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtnd3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModald3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content Box */
+.modal-contentd3 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closed3 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.closed3:hover,
+.closed3:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Avu Clothing */
+/* The Modal (background) */
+/* Button */
+#myBtnd4 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtnd4:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+#myModald4 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content Box */
+.modal-contentd4 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closed4 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.closed4:hover,
+.closed4:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#first-post {
+  padding-bottom: 20px;
+}
+
+#logos-row {
+  padding: 20px;
+}
+
+#logo-left {
+  padding: 0;
+}
+#logo-right {
+  padding: 0;
+}
+
+#general-row{
+  padding: 40px 100px;
+}
 
 
 

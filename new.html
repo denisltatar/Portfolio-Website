@@ -29,7 +29,7 @@
 
 <body>
 
-    <!-- ============================= Start Header Area ============================= -->
+    <!-- ============================= Start Nav Area ============================= -->
     <header class="header_area">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -59,11 +59,11 @@
         </div>
     </header>
 
-    <!-- ============================= End Header Area ============================= -->
+    <!-- ============================= End Nav Area ============================= -->
 
 
 
-    <!-- ============================= Start Main Area ============================= -->
+    <!-- ========================================== Start Main Area ========================================== -->
     <main class="site-main">
         <!-- 
         <div class="container-fluid" id="socials">
@@ -77,10 +77,6 @@
             </div>
         </div>
     -->
-
-
-
-
         <!-- ============================= Start Banner Area ============================= -->
         <section class="site-banner">
             <div class="container">
@@ -103,8 +99,6 @@
             </div>
         </section>
         <!-- ============================= End Banner Area ============================= -->
-
-
         <!-- ============================= Start About Area ============================= -->
         <section class="about-area" id="about-area">
             <div class="container-fluid">
@@ -139,15 +133,20 @@
         </section>
         <!-- ============================= End About Area ============================= -->
 
+
+
+
         <!-- ============================= Start Projects Area ============================= -->
+        <!-- ========== START Coding Projects ========== -->
         <section class="new-projects" id="new-projects">
             <div class="container" id="project-container">
                 <div class="project-title pb-5 text-center">
                     <h1 class="text-uppercase title-h1">Coding Projects</h1>
                 </div>
 
-                <!-- Our First Row -->
+                <!-- START FIRST ROW CODING PROJECTS -->
                 <div class="row" id="row1">
+                    <!-- START COL 1 -->
                     <div class="col" id="row1-col1">
                         <!-- Trigger/Open The Modal -->
                         <div class="text-center">
@@ -156,10 +155,10 @@
                             </button>
                             <p class="para-bold" id="project-title">Porsche Car Connect</p>
                         </div>
-
+                
                         <!-- The Modal -->
                         <div id="myModal" class="modal">
-
+                
                             <!-- Modal content -->
                             <div class="modal-content">
                                 <span class="close">&times;</span>
@@ -168,8 +167,7 @@
                                 <p class="para-bold">Number of Hours: 30+ hours</p>
                                 <p class="para-bold">Software used:
                                     <img src=" ./img/photoshop.dms" alt="" width="34" height="33" id="photoshop-icon">
-                                    <img src="./img/illustrator.png" alt="" width="31" height="30"
-                                        id="illustrator-icon">
+                                    <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
                                     <img src="./img/adobeXD.png" alt="" width="31" height="30" id="xd-icon">
                                     <img src="./img/xcode.png" alt="" width="33" height="32" id="xcode-icon">
                                 </p>
@@ -209,24 +207,26 @@
                                         <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
                                     </div>
                                 </div>
-
-
+                
+                
                                 <div class="row">
                                     <div class="col text-center">
-                                        <p class="para" id="video-para">
+                                        <p class="para-bold" id="video-para">
                                             Here's a video of what the application looks like on a mobile device! Since
                                             I don't
                                             a Porsche, you can see that the analytics on the app are null.
                                         </p>
                                     </div>
                                     <div class="col text-center">
-                                        <video src="./img/Porschevideo.mp4" width="200" height="400"></video>
+                                        <video src="./img/Porschevideo.mp4" width="200" height="400" id="porsche-video"></video>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    <!-- END COL 1 -->
+                
+                    <!-- START COL 2 -->
                     <div class="col" id="row1-col2">
                         <!-- Trigger/Open The Modal -->
                         <div class="text-center">
@@ -235,10 +235,10 @@
                             </button>
                             <p class="para-bold" id="project-title">PrivaSeeable</p>
                         </div>
-
+                
                         <!-- The Modal -->
                         <div id="myModal2" class="modal2">
-
+                
                             <!-- Modal content -->
                             <div class="modal-content2">
                                 <span class="close2">&times;</span>
@@ -257,23 +257,23 @@
                                 </p>
                                 <p class="para-bold">Prize: 3rd Place Finalist at CitizenHacks</p>
                                 <p class="para">
-                                        Privaseeable is a hackathon project that was created in September 2019.
-                                        It's a chrome extension that was built to 
-                                        maintain a user’s privacy in public settings. My team
-                                        and I used Javascript to create this
-                                        chrome extension that takes advantage
-                                        of CSS elements to maintain user 
-                                        privacy by obsuring their screen’s text from
-                                        potential onlookers. We implemented a 
-                                        “blur” feature that allows the user to blur
-                                        onscreen text and seletively unblur text by
-                                        holding shift and clicking on a piece of text.
-                                        We implemented a “scramble” feature as
-                                        well which inserts random words in
-                                        between onscreen text. 
+                                    Privaseeable is a hackathon project that was created in September 2019.
+                                    It's a chrome extension that was built to
+                                    maintain a user’s privacy in public settings. My team
+                                    and I used Javascript to create this
+                                    chrome extension that takes advantage
+                                    of CSS elements to maintain user
+                                    privacy by obsuring their screen’s text from
+                                    potential onlookers. We implemented a
+                                    “blur” feature that allows the user to blur
+                                    onscreen text and seletively unblur text by
+                                    holding shift and clicking on a piece of text.
+                                    We implemented a “scramble” feature as
+                                    well which inserts random words in
+                                    between onscreen text.
                                 </p>
-                                
-
+                
+                
                                 <div class="row">
                                     <div class="col text-center">
                                         <p class="para-bold" id="video-para">
@@ -281,14 +281,14 @@
                                             choose from.
                                         </p>
                                     </div>
-                                    <div class="col text-center">
+                                    <div class="col text-center" id="priv-image">
                                         <img src="./img/privaseeable.png" alt="">
                                     </div>
                                 </div>
-
-
+                
+                
                                 <div class="row">
-                                    <div class="col text-center">
+                                    <div class="col text-center" id="priv-video">
                                         <p class="para-bold" id="video-para">
                                             Here's a video of what this chrome extension looks like in action. Enjoy!
                                         </p>
@@ -298,349 +298,686 @@
                                     </div>
                                 </div>
                             </div>
-
+                
                         </div>
                     </div>
+                    <!-- END COL 2 -->
+                
+
+                
+
+                
+
+
+
+
                 </div>
-            </div>
-            </div>
-        </section>
+                <!-- START FIRST ROW CODING PROJECTS -->
 
 
-        <!-- ========== Start Design Projects ========== -->
-        <section class="design-projects" id="design-projects"></section>
-                <div class="container" id="project-container">
-                        <div class="project-title pb-5 text-center">
-                            <h1 class="text-uppercase title-h1">Design Projects</h1>
+                <!-- START SECOND ROW CODING PROJECTS -->
+                <div class="row" id="row1">
+                        <!-- START COL 1 -->
+                        <div class="col" id="row1-col1">
+                            <!-- Trigger/Open The Modal -->
+                            <div class="text-center">
+                                <button id="myBtn3">
+                                    <img src="./img/facial-recognition-02.png" alt="" height="380" width="300">
+                                </button>
+                                <p class="para-bold" id="project-title">Mood Playlist</p>
+                            </div>
+                    
+                            <!-- The Modal -->
+                            <div id="myModal3" class="modal">
+                    
+                                <!-- Modal content -->
+                                <div class="modal-content3">
+                                    <span class="close3">&times;</span>
+                                    <h4 class="text-center" id="porsche-title">Mood Playlist</h4>
+                                    <p class="para-bold" id="style-work">Type of Work: Web Development</p>
+                                    <p class="para-bold">Number of Hours: 15+ hours</p>
+                                    <p class="para-bold">Software used:
+                                        <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
+                                        <img src="./img/visual-code.png" alt="" width="33" height="32" id="visual-code">
+                                    </p>
+                                    <p class="para-bold">Languages: HTML, CSS, JavaScript</p>
+                                    <p class="para-bold" id="github-link">Github Repository:
+                                        <a href="https://github.com/denisltatar/Mood-Playlist">
+                                            <i class="fab fa-github" id="github-repo"></i>
+                                        </a>
+                                    </p>
+                                    <p class="para">
+                                        Mood Playlist is a project I’m currently
+                                        working on. It involves using machine
+                                        learning to recognize a user’s mood 
+                                        and then play the corresponding
+                                        playlist.  
+                                    </p>
+                                    <p class="para">
+                                        Here's what the application looks like:
+                                    </p>
+                                    
+                    
+                    
+                                    
+                                </div>
+                            </div>
                         </div>
-        
-                        <!-- Our First Row -->
-                        <div class="row" id="row1">
-                            <div class="col" id="row1-col1">
+                        <!-- END COL 1 -->
+                    
+                        <!-- START COL 2 -->
+                        <div class="col" id="row1-col1">
                                 <!-- Trigger/Open The Modal -->
                                 <div class="text-center">
-                                    <button id="myBtn">
-                                        <img src="./img/dream-big.PNG" alt="" width="321" height="460">
+                                    <button id="myBtn4">
+                                        <img src="./img/websitepic.png" alt="" height="374" width="371">
                                     </button>
-                                    <p class="para-bold" id="project-title">Dream Big</p>
+                                    <p class="para-bold" id="project-title">Portfolio Website</p>
                                 </div>
-        
+                        
                                 <!-- The Modal -->
-                                <div id="myModal" class="modal">
-        
+                                <div id="myModal4" class="modal">
+                        
                                     <!-- Modal content -->
-                                    <div class="modal-content">
-                                        <span class="close">&times;</span>
-                                        <h4 class="text-center" id="porsche-title">Porsche Car Connect</h4>
-                                        <p class="para-bold" id="style-work">Type of Work: Mobile Development</p>
+                                    <div class="modal-content4">
+                                        <span class="close4">&times;</span>
+                                        <h4 class="text-center" id="porsche-title">Portfolio Website</h4>
+                                        <p class="para-bold" id="style-work">Type of Work: Web Development</p>
                                         <p class="para-bold">Number of Hours: 30+ hours</p>
                                         <p class="para-bold">Software used:
-                                            <img src=" ./img/photoshop.dms" alt="" width="34" height="33" id="photoshop-icon">
-                                            <img src="./img/illustrator.png" alt="" width="31" height="30"
-                                                id="illustrator-icon">
-                                            <img src="./img/adobeXD.png" alt="" width="31" height="30" id="xd-icon">
-                                            <img src="./img/xcode.png" alt="" width="33" height="32" id="xcode-icon">
+                                            <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
+                                            <img src="./img/visual-code.png" alt="" width="33" height="32" id="visual-code">
                                         </p>
-                                        <p class="para-bold">Languages: Swift</p>
+                                        <p class="para-bold">Languages: HTML, CSS, JavaScript</p>
                                         <p class="para-bold" id="github-link">Github Repository:
-                                            <a href="https://github.com/denisltatar/My-Second-App">
+                                            <a href="https://github.com/denisltatar/Portfolio-Website">
                                                 <i class="fab fa-github" id="github-repo"></i>
                                             </a>
                                         </p>
                                         <p class="para">
-                                            I decided to re-create Porsche’s Car
-                                            Connect iOS application. I used Adobe XD, Photoshop, and Illustrator
-                                            to design the layout that you see here. I used
-                                            Xcode to create the app and used the
-                                            Firebase API to store user account information.
-                                            I felt inspired to re-create this application as the "Car Connect" application
-                                            that was on the market at the time looked horrendous. I thought it could look better
-                                            that it did.
+                                            Mood Playlist is a project I’m currently
+                                            working on. It involves using machine
+                                            learning to recognize a user’s mood 
+                                            and then play the corresponding
+                                            playlist.  
                                         </p>
                                         <p class="para">
                                             Here's what the application looks like:
                                         </p>
-                                        <div class="row">
-                                            <div class="col">
-                                                <img src="./img/porsche-app-cover@2x.png" alt="" width="200" height="400">
-                                            </div>
-                                            <div class="col">
-                                                <img src="./img/porsche-home@3x.png" alt="" width="200" height="400">
-                                            </div>
-                                            <div class="col">
-                                                <img src="./img/porsche-temp@3x.png" alt="" width="200" height="400">
-                                            </div>
-                                            <div class="col">
-                                                <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
-                                            </div>
-                                            <div class="col">
-                                                <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
-                                            </div>
-                                        </div>
-        
-        
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <p class="para" id="video-para">
-                                                    Here's a video of what the application looks like on a mobile device! Since
-                                                    I don't
-                                                    a Porsche, you can see that the analytics on the app are null.
-                                                </p>
-                                            </div>
-                                            <div class="col text-center">
-                                                <video src="./img/Porschevideo.mp4" width="200" height="400"></video>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-        
-                            <div class="col" id="row1-col2">
-                                <!-- Trigger/Open The Modal -->
-                                <div class="text-center">
-                                    <button id="myBtn2">
-                                        <img src="./img/kaws.PNG" alt="" width="321" height="460">
-                                    </button>
-                                    <p class="para-bold" id="project-title">Dior X Kaws</p>
-                                </div>
-        
-                                <!-- The Modal -->
-                                <div id="myModal2" class="modal2">
-        
-                                    <!-- Modal content -->
-                                    <div class="modal-content2">
-                                        <span class="close2">&times;</span>
-                                        <h4 class="text-center" id="porsche-title">PrivaSeeable</h4>
-                                        <p class="para-bold" id="style-work">Type of Work: Web Development</p>
-                                        <p class="para-bold">Number of Hours: 12 hours</p>
-                                        <p class="para-bold">Software used:
-                                            <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
-                                            <img src="./img/visual-code.png" alt="" width="31" height="30" id="visual-code">
-                                        </p>
-                                        <p class="para-bold">Languages: HTML, CSS, and JavaScript</p>
-                                        <p class="para-bold" id="github-link">Github Repository:
-                                            <a href="https://github.com/denisltatar/PrivaSeeable">
-                                                <i class="fab fa-github" id="github-repo"></i>
-                                            </a>
-                                        </p>
-                                        <p class="para-bold">Prize: 3rd Place Finalist at CitizenHacks</p>
-                                        <p class="para">
-                                                Privaseeable is a hackathon project that was created in September 2019.
-                                                It's a chrome extension that was built to 
-                                                maintain a user’s privacy in public settings. My team
-                                                and I used Javascript to create this
-                                                chrome extension that takes advantage
-                                                of CSS elements to maintain user 
-                                                privacy by obsuring their screen’s text from
-                                                potential onlookers. We implemented a 
-                                                “blur” feature that allows the user to blur
-                                                onscreen text and seletively unblur text by
-                                                holding shift and clicking on a piece of text.
-                                                We implemented a “scramble” feature as
-                                                well which inserts random words in
-                                                between onscreen text. 
-                                        </p>
                                         
-        
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <p class="para-bold" id="video-para">
-                                                    Here's what the chrome extension looks like. There are four options here to
-                                                    choose from.
-                                                </p>
-                                            </div>
-                                            <div class="col text-center">
-                                                <img src="./img/privaseeable.png" alt="" >
-                                            </div>
-                                        </div>
-        
-        
-                                        <div class="row">
-                                            <div class="col text-center">
-                                                <p class="para-bold" id="video-para">
-                                                    Here's a video of what this chrome extension looks like in action. Enjoy!
-                                                </p>
-                                            </div>
-                                            <div class="col text-center">
-                                                <video src="./img/Privaseeablevideo.mp4" width="200" height="400"></video>
-                                            </div>
-                                        </div>
+                        
+                        
+                                        
                                     </div>
-        
+                                </div>
+                        </div>
+                        <!-- END COL 2 -->
+                    
+    
+                    
+    
+                    
+    
+    
+    
+    
+                </div>
+                <!-- START SECOND ROW CODING PROJECTS -->
+
+
+                <!-- START THIRD ROW CODING PROJECTS -->
+                <div class="row" id="row1">
+                        <!-- START COL 1 -->
+                        <div class="col" id="row1-col1">
+                            <!-- Trigger/Open The Modal -->
+                            <div class="text-center">
+                                <button id="myBtn3">
+                                    <img src="./img/facial-recognition-02.png" alt="" height="380" width="300">
+                                </button>
+                                <p class="para-bold" id="project-title">Math It!</p>
+                            </div>
+                    
+                            <!-- The Modal -->
+                            <div id="myModal3" class="modal">
+                    
+                                <!-- Modal content -->
+                                <div class="modal-content3">
+                                    <span class="close3">&times;</span>
+                                    <h4 class="text-center" id="porsche-title">Math It!</h4>
+                                    <p class="para-bold" id="style-work">Type of Work: Web Development</p>
+                                    <p class="para-bold">Number of Hours: 15+ hours</p>
+                                    <p class="para-bold">Software used:
+                                        <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
+                                        <img src="./img/visual-code.png" alt="" width="33" height="32" id="visual-code">
+                                    </p>
+                                    <p class="para-bold">Languages: HTML, CSS, JavaScript</p>
+                                    <p class="para-bold" id="github-link">Github Repository:
+                                        <a href="https://github.com/denisltatar/Mood-Playlist">
+                                            <i class="fab fa-github" id="github-repo"></i>
+                                        </a>
+                                    </p>
+                                    <p class="para">
+                                        Mood Playlist is a project I’m currently
+                                        working on. It involves using machine
+                                        learning to recognize a user’s mood 
+                                        and then play the corresponding
+                                        playlist.  
+                                    </p>
+                                    <p class="para">
+                                        Here's what the application looks like:
+                                    </p>
+                                    
+                    
+                    
+                                    
                                 </div>
                             </div>
                         </div>
-
-                        <!-- SECOND ROW OF DESIGNS-->
-                        <!-- Our First Row -->
-                        <div class="row" id="row1">
-                                <div class="col" id="row1-col1">
-                                    <!-- Trigger/Open The Modal -->
-                                    <div class="text-center">
-                                        <button id="myBtn">
-                                            <img src="./img/gucci.PNG" alt="" width="321" height="460">
-                                        </button>
-                                        <p class="para-bold" id="project-title">Gucci</p>
-                                    </div>
-            
-                                    <!-- The Modal -->
-                                    <div id="myModal" class="modal">
-            
-                                        <!-- Modal content -->
-                                        <div class="modal-content">
-                                            <span class="close">&times;</span>
-                                            <h4 class="text-center" id="porsche-title">Porsche Car Connect</h4>
-                                            <p class="para-bold" id="style-work">Type of Work: Mobile Development</p>
-                                            <p class="para-bold">Number of Hours: 30+ hours</p>
-                                            <p class="para-bold">Software used:
-                                                <img src=" ./img/photoshop.dms" alt="" width="34" height="33" id="photoshop-icon">
-                                                <img src="./img/illustrator.png" alt="" width="31" height="30"
-                                                    id="illustrator-icon">
-                                                <img src="./img/adobeXD.png" alt="" width="31" height="30" id="xd-icon">
-                                                <img src="./img/xcode.png" alt="" width="33" height="32" id="xcode-icon">
-                                            </p>
-                                            <p class="para-bold">Languages: Swift</p>
-                                            <p class="para-bold" id="github-link">Github Repository:
-                                                <a href="https://github.com/denisltatar/My-Second-App">
-                                                    <i class="fab fa-github" id="github-repo"></i>
-                                                </a>
-                                            </p>
-                                            <p class="para">
-                                                I decided to re-create Porsche’s Car
-                                                Connect iOS application. I used Adobe XD, Photoshop, and Illustrator
-                                                to design the layout that you see here. I used
-                                                Xcode to create the app and used the
-                                                Firebase API to store user account information.
-                                                I felt inspired to re-create this application as the "Car Connect" application
-                                                that was on the market at the time looked horrendous. I thought it could look better
-                                                that it did.
-                                            </p>
-                                            <p class="para">
-                                                Here's what the application looks like:
-                                            </p>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <img src="./img/porsche-app-cover@2x.png" alt="" width="200" height="400">
-                                                </div>
-                                                <div class="col">
-                                                    <img src="./img/porsche-home@3x.png" alt="" width="200" height="400">
-                                                </div>
-                                                <div class="col">
-                                                    <img src="./img/porsche-temp@3x.png" alt="" width="200" height="400">
-                                                </div>
-                                                <div class="col">
-                                                    <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
-                                                </div>
-                                                <div class="col">
-                                                    <img src="./img/porsche-message-success@3x.png" alt="" width="200" height="400">
-                                                </div>
-                                            </div>
-            
-            
-                                            <div class="row">
-                                                <div class="col text-center">
-                                                    <p class="para" id="video-para">
-                                                        Here's a video of what the application looks like on a mobile device! Since
-                                                        I don't
-                                                        a Porsche, you can see that the analytics on the app are null.
-                                                    </p>
-                                                </div>
-                                                <div class="col text-center">
-                                                    <video src="./img/Porschevideo.mp4" width="200" height="400"></video>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <!-- END COL 1 -->
+                    
+                        <!-- START COL 2 -->
+                        <div class="col" id="row1-col1">
+                                <!-- Trigger/Open The Modal -->
+                                <div class="text-center">
+                                    <button id="myBtn4">
+                                        <img src="./img/websitepic.png" alt="" height="374" width="371">
+                                    </button>
+                                    <p class="para-bold" id="project-title">ML Model Training</p>
+                                </div>
+                        
+                                <!-- The Modal -->
+                                <div id="myModal4" class="modal">
+                        
+                                    <!-- Modal content -->
+                                    <div class="modal-content4">
+                                        <span class="close4">&times;</span>
+                                        <h4 class="text-center" id="porsche-title">ML Model Training</h4>
+                                        <p class="para-bold" id="style-work">Type of Work: Web Development</p>
+                                        <p class="para-bold">Number of Hours: 30+ hours</p>
+                                        <p class="para-bold">Software used:
+                                            <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
+                                            <img src="./img/visual-code.png" alt="" width="33" height="32" id="visual-code">
+                                        </p>
+                                        <p class="para-bold">Languages: HTML, CSS, JavaScript</p>
+                                        <p class="para-bold" id="github-link">Github Repository:
+                                            <a href="https://github.com/denisltatar/Portfolio-Website">
+                                                <i class="fab fa-github" id="github-repo"></i>
+                                            </a>
+                                        </p>
+                                        <p class="para">
+                                            Mood Playlist is a project I’m currently
+                                            working on. It involves using machine
+                                            learning to recognize a user’s mood 
+                                            and then play the corresponding
+                                            playlist.  
+                                        </p>
+                                        <p class="para">
+                                            Here's what the application looks like:
+                                        </p>
+                                        
+                        
+                        
+                                        
                                     </div>
                                 </div>
-            
-                                <div class="col" id="row1-col2">
-                                    <!-- Trigger/Open The Modal -->
-                                    <div class="text-center">
-                                        <button id="myBtn2">
-                                            <img src="./img/kaws.PNG" alt="" width="321" height="460">
-                                        </button>
-                                        <p class="para-bold" id="project-title">Dior X Kaws</p>
-                                    </div>
-            
-                                    <!-- The Modal -->
-                                    <div id="myModal2" class="modal2">
-            
-                                        <!-- Modal content -->
-                                        <div class="modal-content2">
-                                            <span class="close2">&times;</span>
-                                            <h4 class="text-center" id="porsche-title">PrivaSeeable</h4>
-                                            <p class="para-bold" id="style-work">Type of Work: Web Development</p>
-                                            <p class="para-bold">Number of Hours: 12 hours</p>
-                                            <p class="para-bold">Software used:
-                                                <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
-                                                <img src="./img/visual-code.png" alt="" width="31" height="30" id="visual-code">
-                                            </p>
-                                            <p class="para-bold">Languages: HTML, CSS, and JavaScript</p>
-                                            <p class="para-bold" id="github-link">Github Repository:
-                                                <a href="https://github.com/denisltatar/PrivaSeeable">
-                                                    <i class="fab fa-github" id="github-repo"></i>
-                                                </a>
-                                            </p>
-                                            <p class="para-bold">Prize: 3rd Place Finalist at CitizenHacks</p>
-                                            <p class="para">
-                                                    Privaseeable is a hackathon project that was created in September 2019.
-                                                    It's a chrome extension that was built to 
-                                                    maintain a user’s privacy in public settings. My team
-                                                    and I used Javascript to create this
-                                                    chrome extension that takes advantage
-                                                    of CSS elements to maintain user 
-                                                    privacy by obsuring their screen’s text from
-                                                    potential onlookers. We implemented a 
-                                                    “blur” feature that allows the user to blur
-                                                    onscreen text and seletively unblur text by
-                                                    holding shift and clicking on a piece of text.
-                                                    We implemented a “scramble” feature as
-                                                    well which inserts random words in
-                                                    between onscreen text. 
-                                            </p>
-                                            
-            
-                                            <div class="row">
-                                                <div class="col text-center">
-                                                    <p class="para-bold" id="video-para">
-                                                        Here's what the chrome extension looks like. There are four options here to
-                                                        choose from.
-                                                    </p>
-                                                </div>
-                                                <div class="col text-center">
-                                                    <img src="./img/privaseeable.png" alt="" >
-                                                </div>
-                                            </div>
-            
-            
-                                            <div class="row">
-                                                <div class="col text-center">
-                                                    <p class="para-bold" id="video-para">
-                                                        Here's a video of what this chrome extension looks like in action. Enjoy!
-                                                    </p>
-                                                </div>
-                                                <div class="col text-center">
-                                                    <video src="./img/Privaseeablevideo.mp4" width="200" height="400"></video>
-                                                </div>
-                                            </div>
-                                        </div>
-            
-                                    </div>
+                        </div>
+                        <!-- END COL 2 -->
+                    
+                </div>
+                <!-- START THIRD ROW CODING PROJECTS -->
+
+                <!-- START FOURTH ROW CODING PROJECTS -->
+                <div class="row" id="row1">
+                        <!-- START COL 1 -->
+                        <div class="col" id="row1-col1">
+                            <!-- Trigger/Open The Modal -->
+                            <div class="text-center">
+                                <button id="myBtn3">
+                                    <img src="./img/facial-recognition-02.png" alt="" height="380" width="300">
+                                </button>
+                                <p class="para-bold" id="project-title">RaceIt</p>
+                            </div>
+                    
+                            <!-- The Modal -->
+                            <div id="myModal3" class="modal">
+                    
+                                <!-- Modal content -->
+                                <div class="modal-content3">
+                                    <span class="close3">&times;</span>
+                                    <h4 class="text-center" id="porsche-title">RaceIt</h4>
+                                    <p class="para-bold" id="style-work">Type of Work: Web Development</p>
+                                    <p class="para-bold">Number of Hours: 15+ hours</p>
+                                    <p class="para-bold">Software used:
+                                        <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
+                                        <img src="./img/visual-code.png" alt="" width="33" height="32" id="visual-code">
+                                    </p>
+                                    <p class="para-bold">Languages: HTML, CSS, JavaScript</p>
+                                    <p class="para-bold" id="github-link">Github Repository:
+                                        <a href="https://github.com/denisltatar/Mood-Playlist">
+                                            <i class="fab fa-github" id="github-repo"></i>
+                                        </a>
+                                    </p>
+                                    <p class="para">
+                                        Mood Playlist is a project I’m currently
+                                        working on. It involves using machine
+                                        learning to recognize a user’s mood 
+                                        and then play the corresponding
+                                        playlist.  
+                                    </p>
+                                    <p class="para">
+                                        Here's what the application looks like:
+                                    </p>
+                                    
+                    
+                    
+                                    
                                 </div>
                             </div>
+                        </div>
+                        <!-- END COL 1 -->
+                    
+                        <!-- START COL 2 -->
+                        <div class="col" id="row1-col1">
+                                <!-- Trigger/Open The Modal -->
+                                <div class="text-center">
+                                    <button id="myBtn4">
+                                        <img src="./img/websitepic.png" alt="" height="374" width="371">
+                                    </button>
+                                    <p class="para-bold" id="project-title">Minion Run</p>
+                                </div>
+                        
+                                <!-- The Modal -->
+                                <div id="myModal4" class="modal">
+                        
+                                    <!-- Modal content -->
+                                    <div class="modal-content4">
+                                        <span class="close4">&times;</span>
+                                        <h4 class="text-center" id="porsche-title">ML Model Training</h4>
+                                        <p class="para-bold" id="style-work">Type of Work: Web Development</p>
+                                        <p class="para-bold">Number of Hours: 30+ hours</p>
+                                        <p class="para-bold">Software used:
+                                            <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
+                                            <img src="./img/visual-code.png" alt="" width="33" height="32" id="visual-code">
+                                        </p>
+                                        <p class="para-bold">Languages: HTML, CSS, JavaScript</p>
+                                        <p class="para-bold" id="github-link">Github Repository:
+                                            <a href="https://github.com/denisltatar/Portfolio-Website">
+                                                <i class="fab fa-github" id="github-repo"></i>
+                                            </a>
+                                        </p>
+                                        <p class="para">
+                                            Mood Playlist is a project I’m currently
+                                            working on. It involves using machine
+                                            learning to recognize a user’s mood 
+                                            and then play the corresponding
+                                            playlist.  
+                                        </p>
+                                        <p class="para">
+                                            Here's what the application looks like:
+                                        </p>
+                                        
+                        
+                        
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- END COL 2 -->
+                    
+                </div>
+                <!-- START FOURTH ROW CODING PROJECTS -->
 
-                    </div>
-                    </div>
+
+
+            </div>
+            </div>
         </section>
-        <!-- ========== End Design Projects ========== -->
-    <!-- ============================= End Projects Area ============================= -->
+        <!-- ========== END Coding Projects ========== -->
+
+        <!-- ========== START Design Projects ========== -->
+        <section class="design-projects" id="design-projects">
+        <div class="container" id="project-container">
+            <div class="project-title pb-5 text-center">
+                <h1 class="text-uppercase title-h1">Design Projects</h1>
+            </div>
+        
+            <!-- FIRST ROW OF DESIGNS -->
+            <div class="row" id="row1">
+                <div class="col" id="row1-col1">
+                    <!-- Trigger/Open The Modal -->
+                    <div class="text-center">
+                        <button id="myBtnd1">
+                            <img src="./img/dream-big.PNG" alt="" width="321" height="460">
+                        </button>
+                        <p class="para-bold" id="project-title">Dream Big</p>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModald1" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-contentd1">
+                            <span class="closed1">&times;</span>
+                            <h4 class="text-center" id="porsche-title">Dream Big</h4>
+                            <p class="para-bold" id="style-work">Type of Work: Graphic Design</p>
+                            <p class="para-bold">Number of Hours: < 1 hour</p> <p class="para-bold">Software used:
+                                    <img src="./img/procreate.png" alt="" width="34" height="33" id="procreate-icon">
+                            </p>
+                            <p class="para">
+                                Dream Big is an artwork piece I made specifically to fit Ipad screens. It's a wallpaper
+                                I created in August 2019.
+                            </p>
+                            <p class="para">
+                                Here's another look:
+                            </p>
+        
+                            <div class="row">
+                                <div class="col text-center">
+                                    <img src="./img/dream-big.PNG" alt="" width="600" height="900">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col" id="row1-col1">
+                    <!-- Trigger/Open The Modal -->
+                    <div class="text-center">
+                        <button id="myBtnd2">
+                            <img src="./img/kaws.PNG" alt="" width="321" height="460">
+                        </button>
+                        <p class="para-bold" id="project-title">Dior X Kaws</p>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModald2" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-contentd2">
+                            <span class="closed2">&times;</span>
+                            <h4 class="text-center" id="porsche-title">Dior X Kaws</h4>
+                            <p class="para-bold" id="style-work">Type of Work: Graphic Design</p>
+                            <p class="para-bold">Number of Hours: < 1 hour</p> <p class="para-bold">Software used:
+                                    <img src="./img/procreate.png" alt="" width="34" height="33" id="procreate-icon">
+                            </p>
+                            <p class="para">
+                                Dream Big is an artwork piece I made specifically to fit Ipad screens. It's a wallpaper
+                                I created in September 2019. This piece was inspired by Kaws, better known as Brian
+                                Donnelly who is an artist and designer.
+                                I liked his pieces for a while and always wanted to create something similar to his
+                                style. Click
+                                <a href="https://en.wikipedia.org/wiki/Kaws">here</a>
+                                to read more on Brian.
+                            </p>
+                            <p class="para">
+                                Here's another look:
+                            </p>
+        
+                            <div class="row">
+                                <div class="col text-center">
+                                    <img src="./img/kaws.PNG" alt="" width="600" height="900">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- SECOND ROW OF DESIGNS-->
+            <div class="row" id="row1">
+                <div class="col" id="row1-col1">
+                    <!-- Trigger/Open The Modal -->
+                    <div class="text-center">
+                        <button id="myBtnd3">
+                            <img src="./img/gucci.PNG" alt="" width="321" height="460">
+                        </button>
+                        <p class="para-bold" id="project-title">Gucci</p>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModald3" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-contentd3">
+                            <span class="closed3">&times;</span>
+                            <h4 class="text-center" id="porsche-title">Gucci</h4>
+                            <p class="para-bold" id="style-work">Type of Work: Graphic Design</p>
+                            <p class="para-bold">Number of Hours: < 1 hour</p> <p class="para-bold">Software used:
+                                    <img src="./img/procreate.png" alt="" width="34" height="33" id="procreate-icon">
+                            </p>
+                            <p class="para">
+                                Dream Big is an artwork piece I made specifically to fit Ipad screens. It's a wallpaper
+                                I created in September 2019.
+                            </p>
+                            <p class="para">
+                                Here's another look:
+                            </p>
+        
+                            <div class="row">
+                                <div class="col text-center">
+                                    <img src="./img/gucci.PNG" alt="" width="600" height="900">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="row" id="row1">
+                    <div class="col" id="row1-col1">
+                        <!-- Trigger/Open The Modal -->
+                        <div class="text-center">
+                            <button id="myBtnd4">
+                                <img src="./img/Avu Design/Actual Black Front Design 3.png" alt="" width="420" height="460">
+                            </button>
+                            <p class="para-bold" id="project-title">Avu Clothing</p>
+                        </div>
+                        <!-- The Modal -->
+                        <div id="myModald4" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-contentd4">
+                                <span class="closed4">&times;</span>
+                                <h4 class="text-center" id="porsche-title">Avu Clothing</h4>
+                                <p class="para-bold" id="style-work">Type of Work: Graphic Design</p>
+                                <p class="para-bold">Number of Hours: 30+ hours</p>
+                                <p class="para-bold">Software used:
+                                    <img src=" ./img/photoshop.dms" alt="" width="34" height="33" id="photoshop-icon">
+                                    <img src="./img/illustrator.png" alt="" width="31" height="30" id="illustrator-icon">
+                                    <img src="./img/procreate.png" alt="" width="34" height="33" id="procreate-icon">
+                                </p>
+                                <p class="para-bold" id="github-link">Instagram:
+                                    <a href="https://www.instagram.com/avuclothing/">
+                                        <i class="fab fa-instagram" id="instagram-icon"></i>
+                                    </a>
+                                </p>
+                                <p class="para-bold" id="github-link">Youtube:
+                                    <a href="https://www.youtube.com/channel/UC4aog_02uHsTtcTMDk9jgmA">
+                                        <i class="fab fa-youtube" id="youtube-icon"></i>
+                                    </a>
+                                </p>
+                                <p class="para">
+                                    Avu Clothing is a street wear breand I started in the summer of 2017 with one of my
+                                    close friends, Nihal Grewal. We sold over 150+ t-shirts
+                                    and 100+ hoodies. The design of this brand was inspired by other brands such as
+                                    Supreme, Bathing Ape, and Kith. I no longer run this brand as I've stepped down since
+                                    January 2020
+                                    to focus on school and my career in software engineering/development.
+                                </p>
+                                <p class="para">
+                                    Here's another look at some of the designs I created (also note that the images
+                                    below were shot and edited by me):
+                                </p>
+        
+                                <!-- First Collection of Clothes -->
+                                <p class="para">First collection:</p>
+                                <div class="row text-center" id="general-row">
+                                    <div class="col">
+                                        <img src="./img/Avu Design/First Post.jpg" alt="" id="first-post">
+                                    </div>
+                                </div>
+        
+                                <!-- Plaster Look Logos/Designs -->
+                                <p class="para">Logo designs:</p>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center" id="logo-left">
+                                        <img src="./img/Avu Design/new sleeve with text.png" alt="" width="509" height="300">
+                                    </div>
+                                    <div class="col text-center" id="logo-right">
+                                        <img src="./img/Avu Design/new sleeve.png" alt="" width="430" height="300">
+                                    </div>
+                                </div>
+        
+                                <!-- New Summer T-shirts -->
+                                <p class="para">2020 Summer T-shirts:</p>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center" id="summer-t-col1">
+                                        <img src="./img/Avu Design/front black" alt="" width="600" height="470">
+                                    </div>
+                                    <div class="col text-center" id="summer-t-col2">
+                                        <img src="./img/Avu Design/front white" alt="" width="600" height="470">
+                                    </div>
+                                </div>
+        
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/back black" alt="" width="600" height="470">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/back white" alt="" width="600" height="470">
+                                    </div>
+                                </div>
+        
+                                <!-- Hoodies -->
+                                <p class="para">Released Hoodies:</p>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Actual Black Front Design 3.png" alt="" width="500"
+                                            height="470">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Actual White Front Design 3.png" alt="" width="500"
+                                            height="470">
+                                    </div>
+                                </div>
+        
+                                <!-- Hoodie Prototypes-->
+                                <p class="para">Prototype Hoodies (Never Released):</p>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Prototypes/Front Black .png" alt="" width="500" height="470">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design//Prototypes/Front White .png" alt="" width="500"
+                                            height="470">
+                                    </div>
+                                </div>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Prototypes/Back Black .png" alt="" width="500" height="470">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design//Prototypes/Back White.png" alt="" width="500" height="470">
+                                    </div>
+                                </div>
+        
+                                <!-- First Photoshoot -->
+                                <p class="para">First Collection Photoshoot:</p>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/First Shoot/IMG_5468-1.jpg" alt=""
+                                            width="400" height="600">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/First Shoot/IMG_5487-1.jpg" alt=""
+                                            width="400" height="600">
+                                    </div>
+                                </div>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/First Shoot/IMG_5511-1.jpg" alt=""
+                                            width="400" height="600">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/First Shoot/IMG_5533-1.jpg" alt=""
+                                            width="400" height="600">
+                                    </div>
+                                </div>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/First Shoot/IMG_5619-1.jpg" alt=""
+                                            width="400" height="600">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/First Shoot/IMG_5691-1.jpg" alt=""
+                                            width="400" height="600">
+                                    </div>
+                                </div>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/First Shoot/IMG_5647-1.jpg" alt=""
+                                            width="400" height="600">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/First Shoot/IMG_5669-1.jpg" alt=""
+                                            width="400" height="600">
+                                    </div>
+                                </div>
+        
+        
+        
+        
+                                <!-- Atlanta Pics -->
+                                <p class="para">Atlanta Photoshoot:</p>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/IMG_2070.jpg" alt="" width="400"
+                                            height="600">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/IMG_2103-2.jpg" alt="" width="400"
+                                            height="600">
+                                    </div>
+                                </div>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/IMG_2076-2.jpg" alt="" width="400"
+                                            height="600">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/IMG_2098.jpg" alt="" width="400"
+                                            height="600">
+                                    </div>
+                                </div>
+                                <div class="row" id="general-row">
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/IMG_2158.jpg" alt="" width="400"
+                                            height="600">
+                                    </div>
+                                    <div class="col text-center">
+                                        <img src="./img/Avu Design/Photoshoot Pictures/IMG_2167.jpg" alt="" width="400"
+                                            height="600">
+                                    </div>
+                                </div>
+        
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- THIRD ROW OF DESIGNS -->
 
 
+                <!-- FOURTH ROW OF DESIGNS -->
 
 
+                <!-- FIFTH ROW OF DESIGNS -->
+        
+        
+            </div>
+        </section>
+        <!-- ========== END Design Projects ========== -->
+        <!-- ============================= End Projects Area ============================= -->
     </main>
-    <!-- ============================= End Main Area ============================= -->
+    <!-- ========================================== End Main Area ========================================== -->
 
+
+
+    <!-- ============================= Start Footer Area ============================= -->
     <footer class="footer-area" id="contact-me">
         <div class="container">
             <div class="">
@@ -661,11 +998,7 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
+    <!-- ============================= End Footer Area ============================= -->
 </body>
 
 <!-- Moved from the bottom -->
