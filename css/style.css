@@ -311,7 +311,8 @@ html {
 }
 
 /* ICONS USED WITHIN MODALS!!!! */
-#photoshop-icon, #illustrator-icon, #xd-icon, #xcode-icon, #visual-code, #procreate-icon, #instagram-icon, #youtube-icon {
+#photoshop-icon, #illustrator-icon, #xd-icon, #xcode-icon, #visual-code,
+#procreate-icon, #instagram-icon, #youtube-icon, #tensorflow-icon {
   padding-left: 5px;
   padding-bottom: 2px;
 }
@@ -541,9 +542,137 @@ a:hover > i {
   font-weight: bold;
 }
 
-
 .close4:hover,
 .close4:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* Math It */
+/* The Modal (background) */
+/* Button */
+#myBtn5 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtn5:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModal5 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#priv-image {
+  padding: 80px;
+}
+
+#priv-video {
+  padding: 10px;
+}
+
+/* Modal Content Box */
+.modal-content5 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close5 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.close5:hover,
+.close5:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* ML Model Training */
+/* The Modal (background) */
+/* Button */
+#myBtn6 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtn6:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModal6 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#priv-image {
+  padding: 80px;
+}
+
+#priv-video {
+  padding: 10px;
+}
+
+/* Modal Content Box */
+.modal-content6 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close6 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.close6:hover,
+.close6:focus {
   color: rgb(255, 5, 5);
   text-decoration: none;
   cursor: pointer;

@@ -100,7 +100,7 @@ $(document).ready(function () {
     }
 
 
-    // Adding a Pop-Up (Project 3) Personal Portfolio
+    // Adding a Pop-Up (Project 4) Personal Portfolio
     // Get the modal
     var modal4 = document.getElementById("myModal4");
     // Get the button that opens the modal
@@ -122,6 +122,57 @@ $(document).ready(function () {
     window.onclick = function (event) {
         if (event.target == modal4) {
             modal4.style.display = "none";
+        }
+    }
+
+
+    // Adding a Pop-Up (Project 5) Math It
+    // Get the modal
+    var modal5 = document.getElementById("myModal5");
+    // Get the button that opens the modal
+    var btn5 = document.getElementById("myBtn5");
+    // Get the <span> element that closes the modal
+    var span5 = document.getElementsByClassName("close5")[0];
+
+    // When the user clicks on the button, open the modal 
+    btn5.onclick = function () {
+        modal5.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span5.onclick = function () {
+        modal5.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal5) {
+            modal5.style.display = "none";
+        }
+    }
+
+    // Adding a Pop-Up (Project 6) ML Model Training
+    // Get the modal
+    var modal6 = document.getElementById("myModal6");
+    // Get the button that opens the modal
+    var btn6 = document.getElementById("myBtn6");
+    // Get the <span> element that closes the modal
+    var span6 = document.getElementsByClassName("close6")[0];
+
+    // When the user clicks on the button, open the modal 
+    btn6.onclick = function () {
+        modal6.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span6.onclick = function () {
+        modal6.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal6) {
+            modal6.style.display = "none";
         }
     }
 
