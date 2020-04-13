@@ -98,11 +98,9 @@ html {
 
 /* Start About Area */
 .site-main .about-area {
-    /* NOT WORKING */
-    background: url(../img/about-me-banner.png) no-repeat 50% 50%;
+    background: url(../img/about-me-banner.png) no-repeat 20% 50%;
     overflow-x: none;
 }
-
 
 .site-main .about-area {
     padding: 8rem 5rem;
@@ -119,15 +117,10 @@ html {
 .site-main .about-area .about-title .paragraph > p {
     padding: 0.4rem 1.2rem;
 }
-
 /* End About Area */
 
 
-
-.site-main .project-area {
-    padding: 4rem 0;
-}
-
+/*
 .site-main .project-area .button-group button {
     background: transparent;
     border: none;
@@ -142,7 +135,7 @@ html {
 
 .site-main .project-area .grid .out-project > .title h4 {
     font: normal 700 25px/12px var(--roboto);
-}
+} */
 
 
 /* #2 project area */
@@ -235,6 +228,11 @@ html {
   font: normal 500 30px/50px var(--roboto);
 }
 
+#new-project-title{
+  padding-top: 40px;
+  font: normal 500 30px/50px var(--pacifico);
+}
+
 /* Project 1 Modal */
 /* The Modal (background) */
 /* Button */
@@ -256,10 +254,13 @@ html {
   font: normal 35px/45px var(--roboto);
 }
 
-#porsche-video {
-  padding-top: 150px;
-}
 
+
+/*
+#code-row1 {
+  background: url(../img/bubble.png) no-repeat 100% 100%;
+  background-size: 60% 80%;
+} */
 
 #myModal {
   display: none; /* Hidden by default */
@@ -285,7 +286,6 @@ html {
 
 /* Paragraphs! */
 .modal-content p {
-  font: normal 20px/25px var(--roboto);
   color: rgb(114, 114, 114);
 }
 
@@ -312,7 +312,8 @@ html {
 
 /* ICONS USED WITHIN MODALS!!!! */
 #photoshop-icon, #illustrator-icon, #xd-icon, #xcode-icon, #visual-code,
-#procreate-icon, #instagram-icon, #youtube-icon, #tensorflow-icon {
+#procreate-icon, #instagram-icon, #youtube-icon, #tensorflow-icon, #netbeans-icon,
+#firebase-icon {
   padding-left: 5px;
   padding-bottom: 2px;
 }
@@ -452,6 +453,11 @@ a:hover > i {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+
+/*
+#code-row2 {
+  background: url(../img/about-me-banner.png) no-repeat 50% 50%;
+} */
 
 #priv-image {
   padding: 80px;
@@ -677,6 +683,144 @@ a:hover > i {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+/* RaceIt */
+/* The Modal (background) */
+/* Button */
+#myBtn7 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtn7:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModal7 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#priv-image {
+  padding: 80px;
+}
+
+#priv-video {
+  padding: 10px;
+}
+
+#games-row{
+  padding: 25px 25px;
+}
+
+#games-last2-row{
+  padding: 35px 0px;
+}
+
+/* Modal Content Box */
+.modal-content7 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close7 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.close7:hover,
+.close7:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Minion Run */
+/* The Modal (background) */
+/* Button */
+#myBtn8 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtn8:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+#myModal8 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#priv-image {
+  padding: 80px;
+}
+
+#priv-video {
+  padding: 10px;
+}
+
+/* Modal Content Box */
+.modal-content8 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close8 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.close8:hover,
+.close8:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 
 
 
@@ -927,19 +1071,176 @@ a:hover > i {
 }
 
 
+/* Sunset Illustration */
+/* The Modal (background) */
+/* Button */
+#myBtnd5 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtnd5:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+#myModald5 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
 
+/* Modal Content Box */
+.modal-contentd5 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closed5 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
 
+.closed5:hover,
+.closed5:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
+/* Strange Fruits Cover Art #1 */
+/* The Modal (background) */
+/* Button */
+#myBtnd6 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtnd6:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+#myModald6 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
 
+/* Modal Content Box */
+.modal-contentd6 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closed6 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
 
+.closed6:hover,
+.closed6:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
 
+
+/* Strange Fruits Cover Art #2 */
+/* The Modal (background) */
+/* Button */
+#myBtnd7 {
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background: transparent;
+  border: 0;
+}
+
+#myBtnd7:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:  rgba(0,0,0,0.19);
+  color: white;
+}
+
+#myModald7 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content Box */
+.modal-contentd7 {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 20px solid rgb(255, 255, 255);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closed7 {
+  color: rgb(255, 180, 180);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.closed7:hover,
+.closed7:focus {
+  color: rgb(255, 5, 5);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* End Projects Area */
+
+
 
 /* Start Footer Area */
 footer.footer-area {

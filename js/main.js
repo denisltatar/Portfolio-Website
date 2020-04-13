@@ -176,6 +176,56 @@ $(document).ready(function () {
         }
     }
 
+    // Adding a Pop-Up (Project 7) RaceIt
+    // Get the modal
+    var modal7 = document.getElementById("myModal7");
+    // Get the button that opens the modal
+    var btn7 = document.getElementById("myBtn7");
+    // Get the <span> element that closes the modal
+    var span7 = document.getElementsByClassName("close7")[0];
+
+    // When the user clicks on the button, open the modal 
+    btn7.onclick = function () {
+        modal7.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span7.onclick = function () {
+        modal7.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal7) {
+            modal7.style.display = "none";
+        }
+    }
+
+    // Adding a Pop-Up (Project 8) Minion Run
+    // Get the modal
+    var modal8 = document.getElementById("myModal8");
+    // Get the button that opens the modal
+    var btn8 = document.getElementById("myBtn8");
+    // Get the <span> element that closes the modal
+    var span8 = document.getElementsByClassName("close8")[0];
+
+    // When the user clicks on the button, open the modal 
+    btn8.onclick = function () {
+        modal8.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span8.onclick = function () {
+        modal8.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal8) {
+            modal8.style.display = "none";
+        }
+    }
+
 
 
     // DESIGN PROJECTS //
@@ -257,7 +307,7 @@ $(document).ready(function () {
     }
 
 
-    // Adding a Pop-Up (Project 3) Avu Clothing
+    // Adding a Pop-Up (Project 4) Avu Clothing
     // Get the modal
     var modald4 = document.getElementById("myModald4");
     // Get the button that opens the modal
@@ -281,6 +331,84 @@ $(document).ready(function () {
             modald4.style.display = "none";
         }
     }
+
+
+    // Adding a Pop-Up (Project 5) Sunset Illustration
+    // Get the modal
+    var modald5 = document.getElementById("myModald5");
+    // Get the button that opens the modal
+    var btnd5 = document.getElementById("myBtnd5");
+    // Get the <span> element that closes the modal
+    var spand5 = document.getElementsByClassName("closed5")[0];
+
+    // When the user clicks on the button, open the modal 
+    btnd5.onclick = function () {
+        modald5.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    spand5.onclick = function () {
+        modald5.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modald5) {
+            modald5.style.display = "none";
+        }
+    }
+
+
+    // Adding a Pop-Up (Project 6) Strange Fruits Cover Art #1
+    // Get the modal
+    var modald6 = document.getElementById("myModald6");
+    // Get the button that opens the modal
+    var btnd6 = document.getElementById("myBtnd6");
+    // Get the <span> element that closes the modal
+    var spand6 = document.getElementsByClassName("closed6")[0];
+
+    // When the user clicks on the button, open the modal 
+    btnd6.onclick = function () {
+        modald6.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    spand6.onclick = function () {
+        modald6.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modald6) {
+            modald6.style.display = "none";
+        }
+    }
+
+    // Adding a Pop-Up (Project 7) Strange Fruits Cover Art #2
+    // Get the modal
+    var modald7 = document.getElementById("myModald7");
+    // Get the button that opens the modal
+    var btnd7 = document.getElementById("myBtnd7");
+    // Get the <span> element that closes the modal
+    var spand7 = document.getElementsByClassName("closed7")[0];
+
+    // When the user clicks on the button, open the modal 
+    btnd7.onclick = function () {
+        modald7.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    spand7.onclick = function () {
+        modald7.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modald7) {
+            modald7.style.display = "none";
+        }
+    }
+
 
 
 
