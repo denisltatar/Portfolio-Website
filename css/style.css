@@ -74,6 +74,10 @@ html {
     transform: translateY(-10px);
 }
 
+#banner-img {
+  background-color: aqua;
+}
+
 
 .site-main .site-banner .site-title h1 {
     font-size: 3rem;
