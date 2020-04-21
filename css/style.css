@@ -55,7 +55,7 @@ html {
 
 .site-main .site-banner {
     /* NOT WORKING */
-    background: url(../img/home-banner.png) no-repeat 50% 50%;
+    background: url(../img/home-banner.png) no-repeat 20% 20%;
     overflow-x: none;
 }
 
@@ -1249,7 +1249,7 @@ a:hover > i {
 /* Start Footer Area */
 footer.footer-area {
     padding: 5rem 0;
-    background: url(../img/footer-background.png) no-repeat;
+    background: url(../img/footer-background\ copy.png) no-repeat;
 }
 
 footer.footer-area .social h5{
