@@ -15,7 +15,6 @@ html {
 
 
 /* Start Navigation */
-
 .header_area .main-menu {
     padding-top: 0.5%;
 }
@@ -1272,3 +1271,6 @@ footer.footer-area .social a:hover > i {
 body {
     overflow-x: none;
 }
+
+
+/* Media Queries *?
