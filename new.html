@@ -7,6 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Denis Tatar</title>
 
+    <!-- 
+        Editing new.html
+        Note to self: If you want to add another coding or design project, follow this proccess. First, 
+        create the new row and make sure you have two cols. Assuming you copied another built coding
+        or projects row, you'll need to change three pieces here within this file. You button should be
+        "myBtn#" if you're creating a coding project, "myBtnd#" for design. Change this with the correct
+        number to follow the pattern I've created. Next, change you Modal id, "myModal#" for coding, and 
+        "myModald#" for design. Lastly, edit your modal content class. "modal-content#" for coding and 
+        "modal-contentd#" for design.
+
+        Editing style.css
+        Copy a design or code project and change the number attached to each componenet you're calling on
+        within this file.
+
+        Editing main.js
+        Do the same you did in style.css. Copy an old project and change the variable numbers accordingly.
+    -->
+
     <!-- Bootsrap css file -->
     <!-- <link rel="stylesheet" href="file:///Users/denisltatar/Desktop/Portfolio%20Website/Portfolio-Website/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -1221,7 +1239,58 @@
                             </div>
                         </div>
                     </div>
+
+                    
                 </div>
+
+                <div class="col" id="row1-col1">
+                    <!-- Trigger/Open The Modal -->
+                    <div class="text-center">
+                        <button id="myBtnd9">
+                            <img src="./img/Chief-Wolf-Clothing/Black Wolf Logo.png" alt="" width="390" height="370">
+                        </button>
+                        <p class="para-bold" id="new-project-title">Chief Wolf Clothing</p>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="myModald9" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-contentd9">
+                                <span class="closed9">&times;</span>
+                                <h4 class="text-center" id="porsche-title">Chief Wolf Clothing</h4>
+                                <p class="para-bold" id="style-work">Type of Work: Graphic Design</p>
+                                <p class="para-bold">Number of Hours: < 4 hour</p> <p class="para-bold">Software Used:
+                                        <img src="./img/photoshop.dms" alt="" width="34" height="33" id="photoshop-icon">
+                                        <img src="./img/illustrator.png" alt="" width="34" height="33" id="illustrator-icon">
+                                </p>
+                                <p class="para">
+                                    Chief Wolf Clothing is a brand based in Naples, Florida. The folks at Chief Wolf reached 
+                                    out to me and asked if I could create their logo for them. This is what I came up with.
+                                </p>
+                                <p class="para">
+                                    Here's a look at their logo:
+                                </p>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <img src="./img/Chief-Wolf-Clothing/Black Wolf Logo.png" alt="" width="580" height="580">
+                                    </div>
+                                </div>
+
+                                <p class="para">
+                                    Here's another version:
+                                </p>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <img src="./img/Chief-Wolf-Clothing/Black T Shirt Design-01.png" alt="" width="800" height="430">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
                 
                 <!-- EXTRA!! ADD ANOTHER PROJECT HERE -->
                 
