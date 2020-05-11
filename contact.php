@@ -1,4 +1,24 @@
 <?php
+    // New Stuff (Denis)
+if (isset($_POST['submit'])) {
+    $name = $_POST['name'];
+    $mailFrom = $_POST['mail'];
+    $subject = "Message from Personal Portfolio Site" 
+    $message = $_POST['message'];
+
+    // Need to change this
+    $mailTo = "denis.tatar8@gmail.com";
+    $headers = "From: ".$mailFrom;
+    $txt = "You have received an email from ".$name.".\n\n".$message;
+
+    // Sending out mail!
+    mail($mailTo, $subject, $txt, $headers);
+        
+    // Taking us back to the main page
+    header("Location: index.html?mailsend");
+}
+   
+
     // Assigning our variables
     // $name = $_POST['your-name'];
     // $email = $_POST['your-email'];
@@ -22,26 +42,5 @@
 
     // // After submitting, where will user be sent?
     // header("location: test.html");
-
-    
-    // New Stuff (Denis)
-    if (isset($_POST['submit'])){
-        // Script to send email
-        $name = $_POST['name'];
-        $mailFrom = $_POST['mail'];
-        $subject = "Message from Personal Portfolio Site";
-        $message = $_POST['message'];
-
-        // Need to change this
-        $mailTo = "denis.tatar8@gmail.com";
-        $headers = "From: ".$mailFrom;
-        $txt = "You have received an email from ".$name.".\n\n".$message;
-
-        // Sending out mail!
-        mail($mailTo, $subject, $txt, $headers);
-        
-        // Taking us back to the main page
-        header("Location: index.html?mailsend");
-    }
 
 ?>

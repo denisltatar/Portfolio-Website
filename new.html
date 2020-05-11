@@ -1377,27 +1377,27 @@
                 <!-- NEW FORM -->
             
 
-            <form class="new-form" id="contact-form">
+            <form class="new-form" id="contact-form" action="contact.php">
                 <p class="contact-text">Dear Denis,</p>
                 <p class="contact-text">My
                     <label for="your-name">name</label> is
-                    <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(your name here)" required> and
+                    <input id="button-text" name="name" type="text" class="feedback-input" minlength="3" placeholder="(your name here)" required> and
                 </p>
             
                 <p class="contact-text">my
                     <label for="email">email address</label> is
-                    <input type="email" name="your-email" id="email" placeholder="(your email address)" required>
+                    <input id="button-text" name="mail" type="text" class="feedback-input" placeholder="(your email address)" required>
                 </p>
             
                 <p class="contact-text"> I have a
                     <label for="your-message">message</label> for you,</p>
             
                 <p class="contact-text">
-                    <textarea name="your-message" id="your-message" placeholder="(your message here)" class="expanding"
+                    <textarea id="button-text" name="message" class="feedback-input expanding"  placeholder="(your message here)"
                         required></textarea>
                 </p>
                 <p class="contact-text">
-                    <button type="submit" id="submit-button">
+                    <button id="submit-text" name="submit" type="submit" value="Send">
                         <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px"
                             viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
