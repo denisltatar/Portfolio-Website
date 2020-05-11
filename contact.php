@@ -3,7 +3,7 @@
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $mailFrom = $_POST['mail'];
-    $subject = "Message from Personal Portfolio Site" 
+    $subject = "Message from Personal Portfolio Site"; 
     $message = $_POST['message'];
 
     // Need to change this
