@@ -1603,7 +1603,7 @@ input:required:invalid {
   cursor: pointer;
 }
 
-#submit-button {
+#submit-text {
   background: none;
   border: none;
   outline: none;
